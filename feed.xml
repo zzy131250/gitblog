@@ -1,1 +1,137 @@
-
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/zzy131250/gitblog</id><title>RSS feed of zzy131250's gitblog</title><updated>2023-06-25T09:30:37.599113+00:00</updated><author><name>zzy131250</name><email>zia.zhou@pm.me</email></author><link href="https://github.com/zzy131250/gitblog"/><link href="https://raw.githubusercontent.com/zzy131250/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/zzy131250/gitblog/issues/3</id><title>利用 Github Issues 写博客</title><updated>2023-06-25T09:30:37.878406+00:00</updated><content type="html"><![CDATA[<h1>1 背景</h1>
+<p>之前使用 Hexo 搭建过自己的博客 <a href="https://zzy131250.github.io">zzy131250</a>，用的是 Github Pages，主要目标是通过写作积累输出。
+在工作后，写作比较少，加之更换电脑，原来本地的博客源码都没了。最近心血来潮，打算重新开始写作，但又懒得再去折腾 Hexo 博客，所以尝试使用 Github Issues 来写博客。
+Github Issues 写博客配置简单，非常友好，这里记录下配置过程。</p>
+<h2>1.1 优势</h2>
+<h2>1.2 劣势</h2>
+<h1>2 目标</h1>
+<h1>3 流程</h1>
+<h2>3.1 新建项目</h2>
+<h2>3.2 编辑并上传文件</h2>
+<h2>3.3 配置 Github Actions</h2>
+<h1>4 效果</h1>
+<h2>4.1 Issues</h2>
+<img width="1245" alt="image" src="https://github.com/zzy131250/gitblog/assets/7437470/b8a3750a-2d5b-4d1c-942f-931c12b3de01">
+<h2>4.2 Actions</h2>
+<img width="1433" alt="image" src="https://github.com/zzy131250/gitblog/assets/7437470/d895db8d-1875-42a6-adae-cc9c32053e2b">
+<h2>4.3 README</h2>
+<img width="924" alt="image" src="https://github.com/zzy131250/gitblog/assets/7437470/d03aae65-b15f-4048-8135-b82bdc8d369f">
+<h1>5 参考</h1>
+<ol>
+<li><a href="https://github.com/yihong0618/gitblog">gitblog</a></li>
+<li><a href="https://baijiahao.baidu.com/s?id=1708679340950201611&amp;wfr=spider&amp;for=pc">使用 GitHub Issues 来写博客，真香</a></li>
+</ol>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/3" rel="alternate"/><category term="技术"/><category term="WIP"/><category term="2023"/><published>2023-06-25T08:51:45+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/2</id><title>谈谈蓝牙4.0（BLE）模块与安卓的数据交互</title><updated>2023-06-25T09:30:38.019718+00:00</updated><content type="html"><![CDATA[<blockquote>
+<p>迁移自老博客，发表时间：2017-04-17</p>
+</blockquote>
+<p>开发蓝牙4.0也快两个月了，给我的感受还是颇多的。
+我开发的是与TI的蓝牙模块CC2540交互的安卓端蓝牙软件，对于安卓都不是很熟悉的我，是一个不小的挑战。
+我用的是google官方的源码，它本身把很多基本框架都搭好了。直接就能运行，当然前提是在Android Studio上，如果是Eclipse上还需要稍作改动。</p>
+<p>我们先来看下代码。它主要有两个Avtivity和一个Service组成，顾名思义，两个Activity的用途分别为设备扫描与设备管理。
+这里我不准备介绍基本的BLE知识（自行百度即可），我只是说一下一些需要注意的地方，特别是我百度不到的好多东西，希望跟大家分享一下。
+一开始的软件已经可以查看Service和Characteristic的UUID，不过只能接收消息，原因大概是这个Sample当初设计的时候就只负责接收。当然要发送也简单，只要在BluetoothLeService中加writeCharacteristic方法。</p>
+<pre><code class="language-Java">public boolean writeCharacteristic(BluetoothGattCharacteristic charac，String message){
+    // check if mBluetoothGatt is available
+    if (mBluetoothGatt == null) {
+        Log.e(TAG, &quot;lost connection&quot;);
+        return false;
+    }
+    charac.setValue(message.getBytes());
+    boolean status = mBluetoothGatt.writeCharacteristic(charac);
+    return status;
+}
+</code></pre>
+<p>写数据比较简单，直接调用这个方法即可。当然，这里也有个陷阱，我们发现，如果你在CC2540中定义了Byte字节的长度，那么在charac.setValue()中的数组长度要跟其相同，不然模块是收不到的。
+我们发现在很多地方都用到了BluetoothGattCharacteristic这个类，即特性，BLE就是靠改变特性值来传递数据的，那么，这些BluetoothGattCharacteristic是从哪里得到的呢？我们知道，BluetoothGattCharacteristic是BluetoothGattService中的属性，我们要得到BluetoothGattCharacteristic，就要先得到BluetoothGattService。那要怎么样得到BluetoothGattService呢？</p>
+<pre><code class="language-Java">public void onConnectionStateChange(BluetoothGatt gatt, int status, int newState) {
+    String intentAction;
+    if (newState == BluetoothProfile.STATE_CONNECTED) {
+        intentAction = ACTION_GATT_CONNECTED;
+        mConnectionState = STATE_CONNECTED;
+        broadcastUpdate(intentAction);
+        Log.i(TAG, &quot;Connected to GATT server.&quot;);
+        // Attempts to discover services after successful connection.
+        Log.i(TAG, &quot;Attempting to start service discovery:&quot; + mBluetoothGatt.discoverServices());
+    } else if (newState == BluetoothProfile.STATE_DISCONNECTED) {
+        intentAction = ACTION_GATT_DISCONNECTED;
+        mConnectionState = STATE_DISCONNECTED;
+        Log.i(TAG, &quot;Disconnected from GATT server.&quot;);
+        broadcastUpdate(intentAction);
+    }
+}
+</code></pre>
+<p>这里先简单见一下回调，开发过安卓的朋友们应该了解，在安卓开发中，某个动作可能会出发后续的动作，这个被触发的动作就是回调。这里onConnectionStateChange函数就是在连接状态改变后会触发的回调，我们看到mBluetoothGatt.discoverServices()这里执行了发现服务的方法，那么在发现完服务呢？没错，它同样触发回调。</p>
+<pre><code class="language-Java">public void onServicesDiscovered(BluetoothGatt gatt, int status) {
+    if (status == BluetoothGatt.GATT_SUCCESS) {
+        broadcastUpdate(ACTION_GATT_SERVICES_DISCOVERED);
+    } else { 
+        Log.w(TAG, &quot;onServicesDiscovered received: &quot; + status);
+    }
+}
+</code></pre>
+<p>它会调用onServicesDiscovered(BluetoothGatt gatt, int status)方法，在这里它会发出一个广播broadcastUpdate(ACTION_GATT_SERVICES_DISCOVERED)。值得注意的是，在这里，BluetoothLeService与DeviceControlActivity交互的方式是广播。我们看到broadcastUpdate方法，在BluetoothLeService中。</p>
+<pre><code class="language-Java">private void broadcastUpdate(final String action) {
+    final Intent intent = new Intent(action);
+    sendBroadcast(intent);
+}
+private void broadcastUpdate(final String action, final BluetoothGattCharacteristic characteristic) {
+    final Intent intent = new Intent(action);
+    final byte[] data = characteristic.getValue();
+    if (data != null &amp;&amp; data.length &gt; 0) {
+        final StringBuilder stringBuilder = new StringBuilder(data.length);
+        for(byte byteChar : data) {
+            stringBuilder.append(String.format(&quot;%02X &quot;, byteChar));
+        }
+        intent.putExtra(EXTRA_DATA, new String(data) + &quot;\n&quot; + stringBuilder.toString());
+    }
+    sendBroadcast(intent);
+}
+</code></pre>
+<p>这里有两个broadcastUpdate，但效果是相似的，他们都调用sendBroadcast(intent)，至于sendBroadcast方法，就是底层的一些实现了，这里不用管他。我们知道了，在发现了服务之后，BluetoothLeService就sendBroadcast。那么，这个Broadcast传到哪里呢？答案是这里。</p>
+<pre><code class="language-Java">private final BroadcastReceiver mGattUpdateReceiver = new BroadcastReceiver() {
+    public void onReceive(Context context, Intent intent) {
+        if (BluetoothLeService.ACTION_GATT_SERVICES_DISCOVERED.equals(action)) {
+            mBluetoothLeService.getSupportedGattServices()；
+        }
+    }
+}
+</code></pre>
+<p>在DeviceControlActivity中有个onReceive方法，就是接受广播的地方。他通过参数intent的值判断广播的内容。ACTION_GATT_SERVICES_DISCOVERED这个参数表示发现服务。这里再调用getSupportedGattServices就可以获得服务啦。然后特性什么的就都知道了。</p>
+<p>目前为止我们解决了往特性里写值的问题，那么，如何读取模块发来的消息呢？我们来说说具体的接收流程。
+我们首先要明确的是，安卓端接收消息的被动的，它只能被动地告知要接收消息，而告诉他的人就是模块。这里我们说一下特性，特性有自身的一些属性，其实一个服务的每个特性都有自己独立的作用，这个可以自己定义，主要有可写，可读，还有专门用来通知的，即Notification，在模块改变了特性值，他得让手机知道，那么他就通过有Notification功能的特性发出通知。那么，如果模块的Service有好多特性，他怎么知道往哪个特性中发通知呢？所以，我们必须先告知模块我们通过哪个特性接收通知，代码如下。</p>
+<pre><code class="language-Java">public void setCharacteristicNotification(BluetoothGattCharacteristic characteristic, boolean enabled) {
+    if (mBluetoothAdapter == null || mBluetoothGatt == null) {
+        Log.w(TAG, &quot;BluetoothAdapter not initialized&quot;);
+        return;
+    }
+    BluetoothGattDescriptor descriptor = characteristic.getDescriptor(UUID.fromString(DeviceControlActivity.NotificationCharacDescripter));
+    descriptor.setValue(BluetoothGattDescriptor.ENABLE_NOTIFICATION_VALUE);
+    mBluetoothGatt.writeDescriptor(descriptor);  
+    mBluetoothGatt.setCharacteristicNotification(characteristic, enabled);
+}
+</code></pre>
+<p>这里设置了BluetoothGattDescriptor.ENABLE_NOTIFICATION_VALUE，相当于告知模块，我们从这个特性接受通知。然后，如果模块改变了其他特性值，他就会通过这个特性通知我们去读取。
+在我们接收到通知后，安卓触发回调onCharacteristicChanged，并广播通知DeviceControlActivity去接收消息。
+这里我们再看一下broadcastUpdate函数，这里调用的是private void broadcastUpdate(final String action, final BluetoothGattCharacteristic characteristic)。</p>
+<pre><code class="language-Java">private void broadcastUpdate(final String action, final BluetoothGattCharacteristic characteristic) {
+    final Intent intent = new Intent(action);
+    final byte[] data = characteristic.getValue();
+    if (data != null &amp;&amp; data.length &gt; 0) {
+        final StringBuilder stringBuilder = new StringBuilder(data.length);
+        for(byte byteChar : data) {
+            stringBuilder.append(String.format(&quot;%02X &quot;, byteChar));
+        }
+        intent.putExtra(EXTRA_DATA, new String(data) + &quot;\n&quot; + stringBuilder.toString());
+    }
+    sendBroadcast(intent);
+}
+</code></pre>
+<p>上面的代码中BluetoothLeService把接收的数据保存到了EXTRA_DATA里面。</p>
+<pre><code class="language-Java">if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
+    intent.getStringExtra(BluetoothLeService.EXTRA_DATA);
+}
+</code></pre>
+<p>DeviceControlActivity再通过这里接收广播并取出数据，完成数据接收。</p>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/2" rel="alternate"/><category term="技术"/><category term="Android"/><category term="BLE"/><category term="2023"/><published>2023-06-25T08:30:50+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/1</id><title>Github Issues 第一篇博客</title><updated>2023-06-25T09:30:38.161267+00:00</updated><content type="html"><![CDATA[<p>准备开始尝试使用 Github Issue 写博客，会慢慢把 ziazhou.com 上的博客迁移过来。</p>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/1" rel="alternate"/><category term="2023"/><published>2023-06-25T03:52:09+00:00</published></entry></feed>
