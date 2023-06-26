@@ -61,7 +61,9 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2023-06-26
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
 ## TODO
-TODO list from [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9) all done
+TODO list from [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2 jobs to do--0 jobs done
+- [ ] 每天睡觉前一个俯卧撑
+- [ ] 每天在地铁上写10个字的博客
 
 TODO list from [记录我的冥想](https://github.com/zzy131250/gitblog/issues/5) all done
 
