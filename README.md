@@ -65,5 +65,6 @@ TODO list from [《微习惯》读书笔记](https://github.com/zzy131250/gitblo
 - [ ] 每天睡觉前一个俯卧撑
 - [ ] 每天在地铁上写10个字的博客
 
-TODO list from [记录我的冥想](https://github.com/zzy131250/gitblog/issues/5) all done
+TODO list from [记录我的冥想](https://github.com/zzy131250/gitblog/issues/5)--1 jobs to do--0 jobs done
+- [ ] 完成一个自动记录冥想时间、冥想想法的工具🛠️
 
