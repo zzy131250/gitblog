@@ -59,6 +59,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [谈谈蓝牙4.0（BLE）模块与安卓的数据交互](https://github.com/zzy131250/gitblog/issues/2)--2023-06-25
 ## 权限
 - [权限模型介绍](https://github.com/zzy131250/gitblog/issues/4)--2023-06-25
+## 记录
+- [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--2023-06-26
 ## 读书笔记
 - [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2023-06-26
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
