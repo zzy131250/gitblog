@@ -5,11 +5,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
+- [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--2023-06-26
 - [为什么要写博客](https://github.com/zzy131250/gitblog/issues/10)--2023-06-26
 - [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2023-06-26
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
 - [“人生意义”观点收集](https://github.com/zzy131250/gitblog/issues/7)--2023-06-25
-- [博客折腾记录](https://github.com/zzy131250/gitblog/issues/6)--2023-06-25
 ## WIP
 - [为什么要写博客](https://github.com/zzy131250/gitblog/issues/10)--2023-06-26
 - [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2023-06-26
@@ -63,6 +63,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2023-06-26
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
 ## TODO
+TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11) all done
+
 TODO list from [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2 jobs to do--0 jobs done
 - [ ] 每天睡觉前一个俯卧撑
 - [ ] 每天在地铁上写10个字的博客
