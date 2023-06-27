@@ -22,6 +22,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 2017
+- [区块链的共识问题](https://github.com/zzy131250/gitblog/issues/12)--2023-06-27
 - [为什么要写博客](https://github.com/zzy131250/gitblog/issues/10)--2023-06-26
 - [谈谈蓝牙4.0（BLE）模块与安卓的数据交互](https://github.com/zzy131250/gitblog/issues/2)--2023-06-25
 ## 2022
