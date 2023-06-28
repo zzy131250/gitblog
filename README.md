@@ -5,29 +5,35 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
+- [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
 - [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 - [动态规划（一）——背包问题](https://github.com/zzy131250/gitblog/issues/13)--2023-06-28
 - [区块链的共识问题](https://github.com/zzy131250/gitblog/issues/12)--2023-06-27
 - [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--2023-06-26
-- [为什么要写博客](https://github.com/zzy131250/gitblog/issues/10)--2023-06-26
 ## WIP
+- [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
 - [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 - [动态规划（一）——背包问题](https://github.com/zzy131250/gitblog/issues/13)--2023-06-28
 - [“人生意义”观点收集](https://github.com/zzy131250/gitblog/issues/7)--2023-06-25
 - [博客折腾记录](https://github.com/zzy131250/gitblog/issues/6)--2023-06-25
-- [记录我的冥想](https://github.com/zzy131250/gitblog/issues/5)--2023-06-25
 <details><summary>显示更多</summary>
 
+- [记录我的冥想](https://github.com/zzy131250/gitblog/issues/5)--2023-06-25
 - [权限模型介绍](https://github.com/zzy131250/gitblog/issues/4)--2023-06-25
 - [利用 Github Issues 写博客](https://github.com/zzy131250/gitblog/issues/3)--2023-06-25
 </details>
 
 ## 2017
+- [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
 - [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 - [动态规划（一）——背包问题](https://github.com/zzy131250/gitblog/issues/13)--2023-06-28
 - [区块链的共识问题](https://github.com/zzy131250/gitblog/issues/12)--2023-06-27
 - [为什么要写博客](https://github.com/zzy131250/gitblog/issues/10)--2023-06-26
+<details><summary>显示更多</summary>
+
 - [谈谈蓝牙4.0（BLE）模块与安卓的数据交互](https://github.com/zzy131250/gitblog/issues/2)--2023-06-25
+</details>
+
 ## 2022
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
 ## 2023
@@ -47,6 +53,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [谈谈蓝牙4.0（BLE）模块与安卓的数据交互](https://github.com/zzy131250/gitblog/issues/2)--2023-06-25
 ## BLE
 - [谈谈蓝牙4.0（BLE）模块与安卓的数据交互](https://github.com/zzy131250/gitblog/issues/2)--2023-06-25
+## Paxos
+- [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 ## 习惯
 - [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2023-06-26
 ## 人生意义
@@ -55,6 +63,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [区块链的共识问题](https://github.com/zzy131250/gitblog/issues/12)--2023-06-27
 ## 冥想
 - [记录我的冥想](https://github.com/zzy131250/gitblog/issues/5)--2023-06-25
+## 分布式
+- [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 ## 动态规划
 - [动态规划（一）——背包问题](https://github.com/zzy131250/gitblog/issues/13)--2023-06-28
 ## 区块链
@@ -69,6 +79,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [谈谈蓝牙4.0（BLE）模块与安卓的数据交互](https://github.com/zzy131250/gitblog/issues/2)--2023-06-25
 ## 权限
 - [权限模型介绍](https://github.com/zzy131250/gitblog/issues/4)--2023-06-25
+## 目标
+- [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
+## 算法
+- [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
+- [动态规划（一）——背包问题](https://github.com/zzy131250/gitblog/issues/13)--2023-06-28
 ## 记录
 - [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--2023-06-26
 ## 读书笔记
