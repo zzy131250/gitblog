@@ -47,8 +47,12 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2023-06-26
 ## 人生意义
 - [“人生意义”观点收集](https://github.com/zzy131250/gitblog/issues/7)--2023-06-25
+## 共识
+- [区块链的共识问题](https://github.com/zzy131250/gitblog/issues/12)--2023-06-27
 ## 冥想
 - [记录我的冥想](https://github.com/zzy131250/gitblog/issues/5)--2023-06-25
+## 区块链
+- [区块链的共识问题](https://github.com/zzy131250/gitblog/issues/12)--2023-06-27
 ## 哲学
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
 ## 总结
