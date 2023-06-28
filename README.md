@@ -11,16 +11,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2023-06-26
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
 ## WIP
-- [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2023-06-26
 - [“人生意义”观点收集](https://github.com/zzy131250/gitblog/issues/7)--2023-06-25
 - [博客折腾记录](https://github.com/zzy131250/gitblog/issues/6)--2023-06-25
 - [记录我的冥想](https://github.com/zzy131250/gitblog/issues/5)--2023-06-25
 - [权限模型介绍](https://github.com/zzy131250/gitblog/issues/4)--2023-06-25
-<details><summary>显示更多</summary>
-
 - [利用 Github Issues 写博客](https://github.com/zzy131250/gitblog/issues/3)--2023-06-25
-</details>
-
 ## 2017
 - [区块链的共识问题](https://github.com/zzy131250/gitblog/issues/12)--2023-06-27
 - [为什么要写博客](https://github.com/zzy131250/gitblog/issues/10)--2023-06-26
