@@ -5,11 +5,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
+- [技术脑图整理](https://github.com/zzy131250/gitblog/issues/25)--2023-06-29
 - [马尔科夫模型](https://github.com/zzy131250/gitblog/issues/24)--2023-06-29
 - [反向传播](https://github.com/zzy131250/gitblog/issues/23)--2023-06-29
 - [动态规划（二）——最长递增子序列（LIS）](https://github.com/zzy131250/gitblog/issues/22)--2023-06-29
 - [从最小二乘法到梯度下降法（二）](https://github.com/zzy131250/gitblog/issues/21)--2023-06-29
-- [从最小二乘法到梯度下降法（一）](https://github.com/zzy131250/gitblog/issues/20)--2023-06-29
 ## WIP
 - [马尔科夫模型](https://github.com/zzy131250/gitblog/issues/24)--2023-06-29
 - [反向传播](https://github.com/zzy131250/gitblog/issues/23)--2023-06-29
