@@ -5,11 +5,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
+- [从最小二乘法到梯度下降法（一）](https://github.com/zzy131250/gitblog/issues/20)--2023-06-29
 - [记一次异常数据过滤算法的优化](https://github.com/zzy131250/gitblog/issues/19)--2023-06-29
 - [布隆过滤器](https://github.com/zzy131250/gitblog/issues/18)--2023-06-28
 - [Python 库推荐](https://github.com/zzy131250/gitblog/issues/17)--2023-06-28
 - [IO 复用](https://github.com/zzy131250/gitblog/issues/16)--2023-06-28
-- [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
 ## WIP
 - [记一次异常数据过滤算法的优化](https://github.com/zzy131250/gitblog/issues/19)--2023-06-29
 - [布隆过滤器](https://github.com/zzy131250/gitblog/issues/18)--2023-06-28
