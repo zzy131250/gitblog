@@ -5,19 +5,20 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
+- [从最小二乘法到梯度下降法（二）](https://github.com/zzy131250/gitblog/issues/21)--2023-06-29
+- [从最小二乘法到梯度下降法（一）](https://github.com/zzy131250/gitblog/issues/20)--2023-06-29
+- [记一次异常数据过滤算法的优化](https://github.com/zzy131250/gitblog/issues/19)--2023-06-29
+- [布隆过滤器](https://github.com/zzy131250/gitblog/issues/18)--2023-06-28
+- [Python 库推荐](https://github.com/zzy131250/gitblog/issues/17)--2023-06-28
+## WIP
 - [从最小二乘法到梯度下降法（一）](https://github.com/zzy131250/gitblog/issues/20)--2023-06-29
 - [记一次异常数据过滤算法的优化](https://github.com/zzy131250/gitblog/issues/19)--2023-06-29
 - [布隆过滤器](https://github.com/zzy131250/gitblog/issues/18)--2023-06-28
 - [Python 库推荐](https://github.com/zzy131250/gitblog/issues/17)--2023-06-28
 - [IO 复用](https://github.com/zzy131250/gitblog/issues/16)--2023-06-28
-## WIP
-- [记一次异常数据过滤算法的优化](https://github.com/zzy131250/gitblog/issues/19)--2023-06-29
-- [布隆过滤器](https://github.com/zzy131250/gitblog/issues/18)--2023-06-28
-- [Python 库推荐](https://github.com/zzy131250/gitblog/issues/17)--2023-06-28
-- [IO 复用](https://github.com/zzy131250/gitblog/issues/16)--2023-06-28
-- [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
 <details><summary>显示更多</summary>
 
+- [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
 - [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 - [动态规划（一）——背包问题](https://github.com/zzy131250/gitblog/issues/13)--2023-06-28
 - [“人生意义”观点收集](https://github.com/zzy131250/gitblog/issues/7)--2023-06-25
@@ -28,13 +29,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 2017
+- [从最小二乘法到梯度下降法（一）](https://github.com/zzy131250/gitblog/issues/20)--2023-06-29
 - [记一次异常数据过滤算法的优化](https://github.com/zzy131250/gitblog/issues/19)--2023-06-29
 - [布隆过滤器](https://github.com/zzy131250/gitblog/issues/18)--2023-06-28
 - [Python 库推荐](https://github.com/zzy131250/gitblog/issues/17)--2023-06-28
 - [IO 复用](https://github.com/zzy131250/gitblog/issues/16)--2023-06-28
-- [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
 <details><summary>显示更多</summary>
 
+- [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
 - [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 - [动态规划（一）——背包问题](https://github.com/zzy131250/gitblog/issues/13)--2023-06-28
 - [区块链的共识问题](https://github.com/zzy131250/gitblog/issues/12)--2023-06-27
@@ -72,6 +74,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 人生意义
 - [“人生意义”观点收集](https://github.com/zzy131250/gitblog/issues/7)--2023-06-25
 ## 优化
+- [从最小二乘法到梯度下降法（一）](https://github.com/zzy131250/gitblog/issues/20)--2023-06-29
 - [记一次异常数据过滤算法的优化](https://github.com/zzy131250/gitblog/issues/19)--2023-06-29
 ## 共识
 - [区块链的共识问题](https://github.com/zzy131250/gitblog/issues/12)--2023-06-27
@@ -99,6 +102,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [谈谈蓝牙4.0（BLE）模块与安卓的数据交互](https://github.com/zzy131250/gitblog/issues/2)--2023-06-25
 ## 权限
 - [权限模型介绍](https://github.com/zzy131250/gitblog/issues/4)--2023-06-25
+## 深度学习
+- [从最小二乘法到梯度下降法（一）](https://github.com/zzy131250/gitblog/issues/20)--2023-06-29
 ## 目标
 - [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
 ## 算法
