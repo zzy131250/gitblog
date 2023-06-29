@@ -5,19 +5,20 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
+- [记一次异常数据过滤算法的优化](https://github.com/zzy131250/gitblog/issues/19)--2023-06-29
 - [布隆过滤器](https://github.com/zzy131250/gitblog/issues/18)--2023-06-28
 - [Python 库推荐](https://github.com/zzy131250/gitblog/issues/17)--2023-06-28
 - [IO 复用](https://github.com/zzy131250/gitblog/issues/16)--2023-06-28
 - [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
-- [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 ## WIP
+- [记一次异常数据过滤算法的优化](https://github.com/zzy131250/gitblog/issues/19)--2023-06-29
 - [布隆过滤器](https://github.com/zzy131250/gitblog/issues/18)--2023-06-28
 - [Python 库推荐](https://github.com/zzy131250/gitblog/issues/17)--2023-06-28
 - [IO 复用](https://github.com/zzy131250/gitblog/issues/16)--2023-06-28
 - [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
-- [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 <details><summary>显示更多</summary>
 
+- [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 - [动态规划（一）——背包问题](https://github.com/zzy131250/gitblog/issues/13)--2023-06-28
 - [“人生意义”观点收集](https://github.com/zzy131250/gitblog/issues/7)--2023-06-25
 - [博客折腾记录](https://github.com/zzy131250/gitblog/issues/6)--2023-06-25
@@ -27,13 +28,14 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## 2017
+- [记一次异常数据过滤算法的优化](https://github.com/zzy131250/gitblog/issues/19)--2023-06-29
 - [布隆过滤器](https://github.com/zzy131250/gitblog/issues/18)--2023-06-28
 - [Python 库推荐](https://github.com/zzy131250/gitblog/issues/17)--2023-06-28
 - [IO 复用](https://github.com/zzy131250/gitblog/issues/16)--2023-06-28
 - [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
-- [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 <details><summary>显示更多</summary>
 
+- [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 - [动态规划（一）——背包问题](https://github.com/zzy131250/gitblog/issues/13)--2023-06-28
 - [区块链的共识问题](https://github.com/zzy131250/gitblog/issues/12)--2023-06-27
 - [为什么要写博客](https://github.com/zzy131250/gitblog/issues/10)--2023-06-26
@@ -69,6 +71,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2023-06-26
 ## 人生意义
 - [“人生意义”观点收集](https://github.com/zzy131250/gitblog/issues/7)--2023-06-25
+## 优化
+- [记一次异常数据过滤算法的优化](https://github.com/zzy131250/gitblog/issues/19)--2023-06-29
 ## 共识
 - [区块链的共识问题](https://github.com/zzy131250/gitblog/issues/12)--2023-06-27
 ## 冥想
@@ -98,6 +102,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 目标
 - [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
 ## 算法
+- [记一次异常数据过滤算法的优化](https://github.com/zzy131250/gitblog/issues/19)--2023-06-29
 - [布隆过滤器](https://github.com/zzy131250/gitblog/issues/18)--2023-06-28
 - [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 - [动态规划（一）——背包问题](https://github.com/zzy131250/gitblog/issues/13)--2023-06-28
