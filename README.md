@@ -5,19 +5,20 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
+- [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 - [IPTables 学习实践](https://github.com/zzy131250/gitblog/issues/28)--2023-06-30
 - [做一只爬虫需要考虑的](https://github.com/zzy131250/gitblog/issues/27)--2023-06-29
 - [JDK 动态代理](https://github.com/zzy131250/gitblog/issues/26)--2023-06-29
 - [技术脑图整理](https://github.com/zzy131250/gitblog/issues/25)--2023-06-29
-- [马尔科夫模型](https://github.com/zzy131250/gitblog/issues/24)--2023-06-29
 ## WIP
+- [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 - [IPTables 学习实践](https://github.com/zzy131250/gitblog/issues/28)--2023-06-30
 - [做一只爬虫需要考虑的](https://github.com/zzy131250/gitblog/issues/27)--2023-06-29
 - [JDK 动态代理](https://github.com/zzy131250/gitblog/issues/26)--2023-06-29
 - [技术脑图整理](https://github.com/zzy131250/gitblog/issues/25)--2023-06-29
-- [马尔科夫模型](https://github.com/zzy131250/gitblog/issues/24)--2023-06-29
 <details><summary>显示更多</summary>
 
+- [马尔科夫模型](https://github.com/zzy131250/gitblog/issues/24)--2023-06-29
 - [反向传播](https://github.com/zzy131250/gitblog/issues/23)--2023-06-29
 - [动态规划（二）——最长递增子序列（LIS）](https://github.com/zzy131250/gitblog/issues/22)--2023-06-29
 - [从最小二乘法到梯度下降法（二）](https://github.com/zzy131250/gitblog/issues/21)--2023-06-29
@@ -62,6 +63,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 2019
 - [IPTables 学习实践](https://github.com/zzy131250/gitblog/issues/28)--2023-06-30
 - [做一只爬虫需要考虑的](https://github.com/zzy131250/gitblog/issues/27)--2023-06-29
+## 2020
+- [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 ## 2022
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
 ## 2023
@@ -118,6 +121,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [布隆过滤器](https://github.com/zzy131250/gitblog/issues/18)--2023-06-28
 ## 哲学
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
+## 字符串匹配
+- [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 ## 库
 - [Python 库推荐](https://github.com/zzy131250/gitblog/issues/17)--2023-06-28
 ## 异步
@@ -139,11 +144,16 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 目标
 - [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
 ## 算法
+- [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 - [动态规划（二）——最长递增子序列（LIS）](https://github.com/zzy131250/gitblog/issues/22)--2023-06-29
 - [记一次异常数据过滤算法的优化](https://github.com/zzy131250/gitblog/issues/19)--2023-06-29
 - [布隆过滤器](https://github.com/zzy131250/gitblog/issues/18)--2023-06-28
 - [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
+<details><summary>显示更多</summary>
+
 - [动态规划（一）——背包问题](https://github.com/zzy131250/gitblog/issues/13)--2023-06-28
+</details>
+
 ## 网络
 - [IPTables 学习实践](https://github.com/zzy131250/gitblog/issues/28)--2023-06-30
 ## 记录
