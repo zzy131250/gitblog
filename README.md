@@ -27,7 +27,6 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [布隆过滤器](https://github.com/zzy131250/gitblog/issues/18)--2023-06-28
 - [Python 库推荐](https://github.com/zzy131250/gitblog/issues/17)--2023-06-28
 - [IO 复用](https://github.com/zzy131250/gitblog/issues/16)--2023-06-28
-- [目标遐想](https://github.com/zzy131250/gitblog/issues/15)--2023-06-28
 - [Paxos 算法学习笔记](https://github.com/zzy131250/gitblog/issues/14)--2023-06-28
 - [动态规划（一）——背包问题](https://github.com/zzy131250/gitblog/issues/13)--2023-06-28
 - [“人生意义”观点收集](https://github.com/zzy131250/gitblog/issues/7)--2023-06-25
