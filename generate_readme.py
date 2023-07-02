@@ -14,7 +14,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 """
 
 BACKUP_DIR = "BACKUP"
-ANCHOR_NUMBER = 5
+ANCHOR_NUMBER = 10
 TOP_ISSUES_LABELS = ["Top"]
 TODO_ISSUES_LABELS = ["TODO"]
 FRIENDS_LABELS = ["Friends"]
@@ -186,6 +186,43 @@ def add_md_header(md, repo_name):
         md.write(MD_HEAD.format(repo_name=repo_name))
 
 
+def is_year_label(label):
+    return label.isdigit()
+
+
+def add_md_year_label(repo, md, me):
+     labels = get_repo_labels(repo)
+
+    # sort lables by description info if it exists, otherwise sort by name, 
+    # for example, we can let the description start with a number (1#Java, 2#Docker, 3#K8s, etc.)
+    labels = sorted(labels, key=lambda x: (x.description is None, x.description == "", x.description, x.name))
+
+    with open(md, "a+", encoding="utf-8") as md:
+        for label in labels:
+
+            # only add year label, 2017、2023 etc.
+            if not is_year_label(label.name):
+                continue
+
+            issues = get_issues_from_label(repo, label)
+            if issues.totalCount:
+                md.write("## " + label.name + " 共 " + issues.totalCount + " 篇\n")
+                issues = sorted(issues, key=lambda x: x.created_at, reverse=True)
+            i = 0
+            for issue in issues:
+                if not issue:
+                    continue
+                if is_me(issue, me):
+                    if i == ANCHOR_NUMBER:
+                        md.write("<details><summary>显示更多</summary>\n")
+                        md.write("\n")
+                    add_issue_info(issue, md)
+                    i += 1
+            if i > ANCHOR_NUMBER:
+                md.write("</details>\n")
+                md.write("\n")
+
+
 def add_md_label(repo, md, me):
     labels = get_repo_labels(repo)
 
@@ -267,7 +304,7 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
     repo = get_repo(user, repo_name)
     # add to readme one by one, change order here
     add_md_header("README.md", repo_name)
-    for func in [add_md_firends, add_md_top, add_md_recent, add_md_label, add_md_todo]:
+    for func in [add_md_firends, add_md_top, add_md_recent, add_md_year_label, add_md_todo]:
         func(repo, "README.md", me)
 
     generate_rss_feed(repo, "feed.xml", me)
