@@ -191,7 +191,7 @@ def is_year_label(label):
 
 
 def add_md_year_label(repo, md, me):
-     labels = get_repo_labels(repo)
+    labels = get_repo_labels(repo)
 
     # sort lables by description info if it exists, otherwise sort by name, 
     # for example, we can let the description start with a number (1#Java, 2#Docker, 3#K8s, etc.)
