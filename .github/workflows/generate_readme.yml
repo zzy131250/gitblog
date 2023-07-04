@@ -10,7 +10,7 @@ on:
     branches:
       - main
     paths:
-      - main.py
+      - generate_readme.py
 
 env:
   GITHUB_NAME: zzy131250
