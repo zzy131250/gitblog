@@ -5,7 +5,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
-- [在《哲学家们都干了些什么？》的最后，作者的观点是思考死亡，想清楚为什么不自杀，就能想清楚人生意义。](https://github.com/zzy131250/gitblog/issues/32)--2023-07-05
+- [占位](https://github.com/zzy131250/gitblog/issues/32)--2023-07-05
 - [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 - [IPTables 学习实践](https://github.com/zzy131250/gitblog/issues/28)--2023-06-30
 - [做一只爬虫需要考虑的](https://github.com/zzy131250/gitblog/issues/27)--2023-06-29
