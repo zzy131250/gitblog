@@ -52,10 +52,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## TODO
 TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11) all done
 
-TODO list from [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--3 jobs to do--0 jobs done
+TODO list from [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--4 jobs to do--0 jobs done
 - [ ] 每天早上冥想 1 分钟
 - [ ] 每天睡觉前做 1 个俯卧撑
-- [ ] 每天在地铁上写 10 个字的博客
+- [ ] 输入：每天看 5 分钟分享
+- [ ] 输出：每天在地铁上写 10 个字的博客
 
 TODO list from [记录我的冥想](https://github.com/zzy131250/gitblog/issues/5)--1 jobs to do--0 jobs done
 - [ ] 完成一个自动记录冥想时间、冥想想法的工具🛠️
