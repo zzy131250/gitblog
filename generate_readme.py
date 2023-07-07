@@ -105,7 +105,6 @@ def parse_TODO(issue):
     body = issue.body.splitlines()
     create_time = format_time(issue.created_at)
     todo_undone = [l+"--"+create_time for l in body if l.startswith("- [ ] ")]
-    todo_done = [l+"--"+create_time for l in body if l.startswith("- [x] ")]
     # parse comments TODO
     for comment in issue.get_comments():
         me = issue.user.login
@@ -113,13 +112,11 @@ def parse_TODO(issue):
             comment_body = comment.body.splitlines()
             comment_create_time = format_time(comment.created_at)
             todo_undone.extend([l+"--"+comment_create_time for l in comment_body if l.startswith("- [ ] ")])
-            todo_done.extend(l+"--"+comment_create_time for l in comment_body if l.startswith("- [x] "))
     # just add info all done
     if not todo_undone:
         return f"[{issue.title}]({issue.html_url}) all done", []
     return (
-        f"[{issue.title}]({issue.html_url})--{len(todo_undone)} jobs to do--{len(todo_done)} jobs done",
-        todo_done + todo_undone,
+        f"[{issue.title}]({issue.html_url})--{len(todo_undone)} jobs to do", todo_undone,
     )
 
 
