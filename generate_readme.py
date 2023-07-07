@@ -346,7 +346,7 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
         f.write(issue.body)
         if issue.comments:
             for c in issue.get_comments():
-                if is_me(c, me):
+                if is_my_issue(c, me):
                     f.write("\n\n---\n\n")
                     f.write(c.body)
 
