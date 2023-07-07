@@ -1,22 +1,17 @@
-name: Generate GitBlog README
+name: Generate Issue Comment
 
 on:
   workflow_dispatch:
-  issues:
-    types: [opened, edited]
-  issue_comment:
-    types: [created, edited]
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '0 0 * * *'
 
 env:
-  GITHUB_NAME: zzy131250
-  GITHUB_EMAIL: zia.zhou@pm.me
+  ISSUE_NUMBER: 32
+  FROM_ISSUE_NUMBER: 9
 
 jobs:
   sync:
-    name: Generate README
+    name: Generate Issue Comment
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -43,16 +38,7 @@ jobs:
           pip install -r requirements.txt
         if: steps.pip-cache.outputs.cache-hit != 'true'
 
-      - name: Generate new md
+      - name: Generate Issue Comment
         run: |
           source venv/bin/activate
-          python generate_readme.py ${{ secrets.G_T }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
-
-      - name: Push README
-        run: |
-          git config --local user.email "${{ env.GITHUB_EMAIL }}"
-          git config --local user.name "${{ env.GITHUB_NAME }}"
-          git add BACKUP/*.md
-          git commit -a -m 'update new blog' || echo "nothing to commit"
-          git push || echo "nothing to push"
-
+          python generate_issue_comment.py ${{ secrets.G_T }} ${{ github.repository }} --from_issue_number ${{ env.FROM_ISSUE_NUMBER }} --issue_number ${{ env.ISSUE_NUMBER }}

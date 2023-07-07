@@ -110,9 +110,10 @@ def parse_TODO(issue):
     for comment in issue.get_comments():
         me = issue.user.login
         if is_my_comment(comment, me) and not is_confused_by_me(comment, me):
-            comment_body = comment.splitlines()
-            todo_undone.extend([l+"--"+create_time for l in comment_body if l.startswith("- [ ] ")])
-            todo_done.extend(l+"--"+create_time for l in comment_body if l.startswith("- [x] "))
+            comment_body = comment.body.splitlines()
+            comment_create_time = format_time(comment.created_at)
+            todo_undone.extend([l+"--"+comment_create_time for l in comment_body if l.startswith("- [ ] ")])
+            todo_done.extend(l+"--"+comment_create_time for l in comment_body if l.startswith("- [x] "))
     # just add info all done
     if not todo_undone:
         return f"[{issue.title}]({issue.html_url}) all done", []
@@ -345,7 +346,7 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
         f.write(issue.body)
         if issue.comments:
             for c in issue.get_comments():
-                if is_me(c, me):
+                if is_my_issue(c, me):
                     f.write("\n\n---\n\n")
                     f.write(c.body)
 
