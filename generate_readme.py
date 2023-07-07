@@ -167,7 +167,7 @@ def add_md_top(repo, md, me):
     with open(md, "a+", encoding="utf-8") as md:
         md.write("## 置顶文章\n")
         for issue in top_issues:
-            if is_me(issue, me):
+            if is_my_issue(issue, me):
                 add_issue_info(issue, md)
 
 
@@ -194,7 +194,7 @@ def add_md_recent(repo, md, me, limit=5):
         try:
             md.write("## 最近更新\n")
             for issue in repo.get_issues():
-                if is_me(issue, me):
+                if is_my_issue(issue, me):
                     add_issue_info(issue, md)
                     count += 1
                     if count >= limit:
@@ -267,7 +267,7 @@ def add_md_label(repo, md, me):
             for issue in issues:
                 if not issue:
                     continue
-                if is_me(issue, me):
+                if is_my_issue(issue, me):
                     if i == ANCHOR_NUMBER:
                         md.write("<details><summary>显示更多</summary>\n")
                         md.write("\n")
@@ -306,7 +306,7 @@ def generate_rss_feed(repo, filename, me):
         rel="self",
     )
     for issue in repo.get_issues():
-        if not issue.body or not is_me(issue, me) or issue.pull_request:
+        if not issue.body or not is_my_issue(issue, me) or issue.pull_request:
             continue
         item = generator.add_entry(order="append")
         item.id(issue.html_url)
