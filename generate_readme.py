@@ -33,14 +33,26 @@ def get_me(user):
     return user.get_user().login
 
 
-def is_me(issue, me):
+def is_my_issue(issue, me):
     return issue.user.login == me
+
+
+def is_my_comment(comment, me):
+    return comment.user.login == me
 
 
 def is_hearted_by_me(comment, me):
     reactions = list(comment.get_reactions())
     for r in reactions:
         if r.content == "heart" and r.user.login == me:
+            return True
+    return False
+
+
+def is_confused_by_me(comment, me):
+    reactions = list(comment.get_reactions())
+    for r in reactions:
+        if r.content == "confused" and r.user.login == me:
             return True
     return False
 
@@ -89,9 +101,18 @@ def get_repo(user: Github, repo: str):
 
 
 def parse_TODO(issue):
+    # parse body TODO
     body = issue.body.splitlines()
-    todo_undone = [l for l in body if l.startswith("- [ ] ")]
-    todo_done = [l for l in body if l.startswith("- [x] ")]
+    create_time = format_time(issue.created_at)
+    todo_undone = [l+"--"+create_time for l in body if l.startswith("- [ ] ")]
+    todo_done = [l+"--"+create_time for l in body if l.startswith("- [x] ")]
+    # parse comments TODO
+    for comment in issue.get_comments():
+        me = issue.user.login
+        if is_my_comment(comment, me) and not is_confused_by_me(comment, me):
+            comment_body = comment.splitlines()
+            todo_undone.extend([l+"--"+create_time for l in comment_body if l.startswith("- [ ] ")])
+            todo_done.extend(l+"--"+create_time for l in comment_body if l.startswith("- [x] "))
     # just add info all done
     if not todo_undone:
         return f"[{issue.title}]({issue.html_url}) all done", []
@@ -129,7 +150,7 @@ def add_md_todo(repo, md, me):
     with open(md, "a+", encoding="utf-8") as md:
         md.write("## TODO\n")
         for issue in todo_issues:
-            if is_me(issue, me):
+            if is_my_issue(issue, me):
                 todo_title, todo_list = parse_TODO(issue)
                 md.write("TODO list from " + todo_title + "\n")
                 for t in todo_list:
@@ -212,7 +233,7 @@ def add_md_year_label(repo, md, me):
             for issue in issues:
                 if not issue:
                     continue
-                if is_me(issue, me):
+                if is_my_issue(issue, me):
                     if i == ANCHOR_NUMBER:
                         md.write("<details><summary>显示更多</summary>\n")
                         md.write("\n")
