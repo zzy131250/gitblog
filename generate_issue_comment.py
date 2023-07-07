@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import argparse
 
+from datetime import datetime
 from github import Github
 
 
@@ -21,6 +22,10 @@ def get_TODO(issue):
     return [l for l in body if l.startswith("- [ ] ")]
 
 
+def format_time(time):
+    return str(time)[:10]
+
+
 def main(token, repo_name, from_issue_number=None, issue_number=None):
     user = login(token)
     repo = get_repo(user, repo_name)
@@ -30,7 +35,8 @@ def main(token, repo_name, from_issue_number=None, issue_number=None):
     comment = [l + "\n" for l in TODO]
 
     issue = repo.get_issue(int(issue_number))
-    issue.create_comment("\n".join(comment))
+    now = datetime.now().strftime("%Y-%m-%d")
+    issue.create_comment("# " + now + " 打卡\n" + "".join(comment))
 
 
 if __name__ == "__main__":
