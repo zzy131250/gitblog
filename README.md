@@ -51,7 +51,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [利用 Github Issues 写博客](https://github.com/zzy131250/gitblog/issues/3)--2023-06-25
 - [Github Issues 第一篇博客](https://github.com/zzy131250/gitblog/issues/1)--2023-06-25
 ## TODO
-TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--10 jobs to do
+TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--12 jobs to do
 - [ ] 计划国庆旅行--2023-06-26
 - [ ] 问一下外企、银行的同学，工作体验怎么样--2023-06-26
 - [ ] 计算基金相对涨跌幅，基金何时割肉--2023-06-26
@@ -62,6 +62,8 @@ TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/i
 - [ ] 2023.10.7提前还款--2023-06-29
 - [ ] 了解并学习 Rust--2023-06-30
 - [ ] 学会自洽--2023-07-02
+- [ ] 今天搞定丽江行程+整体交通--2023-07-09
+- [ ] todo搬运到github--2023-07-09
 
 TODO list from [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--4 jobs to do
 - [ ] 每天早上冥想 1 分钟--2023-06-26
