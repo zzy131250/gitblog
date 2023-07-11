@@ -3,7 +3,7 @@ name: Generate Issue Comment
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 1 * * *'
+    - cron: '50 23 * * *'
 
 env:
   ISSUE_NUMBER: 32
