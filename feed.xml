@@ -1,48 +1,48 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/zzy131250/gitblog</id><title>RSS feed of zzy131250's gitblog</title><updated>2023-07-11T15:42:11.237578+00:00</updated><author><name>zzy131250</name><email>zia.zhou@pm.me</email></author><link href="https://github.com/zzy131250/gitblog"/><link href="https://raw.githubusercontent.com/zzy131250/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/zzy131250/gitblog/issues/32</id><title>微习惯打卡</title><updated>2023-07-11T15:42:11.620162+00:00</updated><content type="html"><![CDATA[<p>这个 Issue 作为微习惯每日打卡贴。</p>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/32" rel="alternate"/><category term="2023"/><category term="记录"/><category term="打卡"/><published>2023-07-05T01:43:07+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/29</id><title>KMP 算法</title><updated>2023-07-11T15:42:11.757788+00:00</updated><content type="html"><![CDATA[<blockquote>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/zzy131250/gitblog</id><title>RSS feed of zzy131250's gitblog</title><updated>2023-07-11T16:04:53.886605+00:00</updated><author><name>zzy131250</name><email>zia.zhou@pm.me</email></author><link href="https://github.com/zzy131250/gitblog"/><link href="https://raw.githubusercontent.com/zzy131250/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/zzy131250/gitblog/issues/32</id><title>微习惯打卡</title><updated>2023-07-11T16:04:55.305835+00:00</updated><content type="html"><![CDATA[<p>这个 Issue 作为微习惯每日打卡贴。</p>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/32" rel="alternate"/><category term="2023"/><category term="记录"/><category term="打卡"/><published>2023-07-05T01:43:07+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/29</id><title>KMP 算法</title><updated>2023-07-11T16:04:55.442474+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2020-02-01</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/29" rel="alternate"/><category term="WIP"/><category term="算法"/><category term="字符串匹配"/><category term="2020"/><published>2023-06-30T01:46:47+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/28</id><title>IPTables 学习实践</title><updated>2023-07-11T15:42:11.907033+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/29" rel="alternate"/><category term="WIP"/><category term="算法"/><category term="字符串匹配"/><category term="2020"/><published>2023-06-30T01:46:47+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/28</id><title>IPTables 学习实践</title><updated>2023-07-11T16:04:55.593424+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2019-06-12</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/28" rel="alternate"/><category term="WIP"/><category term="网络"/><category term="IPTables"/><category term="2019"/><published>2023-06-30T01:45:40+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/27</id><title>做一只爬虫需要考虑的</title><updated>2023-07-11T15:42:12.040579+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/28" rel="alternate"/><category term="WIP"/><category term="网络"/><category term="IPTables"/><category term="2019"/><published>2023-06-30T01:45:40+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/27</id><title>做一只爬虫需要考虑的</title><updated>2023-07-11T16:04:55.732667+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2019-04-10</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/27" rel="alternate"/><category term="WIP"/><category term="爬虫"/><category term="2019"/><published>2023-06-29T15:01:03+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/26</id><title>JDK 动态代理</title><updated>2023-07-11T15:42:12.169634+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/27" rel="alternate"/><category term="WIP"/><category term="爬虫"/><category term="2019"/><published>2023-06-29T15:01:03+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/26</id><title>JDK 动态代理</title><updated>2023-07-11T16:04:55.884844+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2018-09-02</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/26" rel="alternate"/><category term="WIP"/><category term="Java"/><category term="动态代理"/><category term="2018"/><published>2023-06-29T14:02:30+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/25</id><title>技术脑图整理</title><updated>2023-07-11T15:42:12.286280+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/26" rel="alternate"/><category term="WIP"/><category term="Java"/><category term="动态代理"/><category term="2018"/><published>2023-06-29T14:02:30+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/25</id><title>技术脑图整理</title><updated>2023-07-11T16:04:56.011303+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2018-02-23</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/25" rel="alternate"/><category term="WIP"/><category term="读书笔记"/><category term="2018"/><published>2023-06-29T13:57:20+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/24</id><title>马尔科夫模型</title><updated>2023-07-11T15:42:12.434370+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/25" rel="alternate"/><category term="WIP"/><category term="读书笔记"/><category term="2018"/><published>2023-06-29T13:57:20+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/24</id><title>马尔科夫模型</title><updated>2023-07-11T16:04:56.149311+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2017-09-07</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/24" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="NLP"/><published>2023-06-29T13:55:55+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/23</id><title>反向传播</title><updated>2023-07-11T15:42:12.571404+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/24" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="NLP"/><published>2023-06-29T13:55:55+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/23</id><title>反向传播</title><updated>2023-07-11T16:04:56.274441+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2017-08-19</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/23" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="深度学习"/><published>2023-06-29T13:54:42+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/22</id><title>动态规划（二）——最长递增子序列（LIS）</title><updated>2023-07-11T15:42:12.730349+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/23" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="深度学习"/><published>2023-06-29T13:54:42+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/22</id><title>动态规划（二）——最长递增子序列（LIS）</title><updated>2023-07-11T16:04:56.414886+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2017-08-06</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/22" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="动态规划"/><category term="算法"/><published>2023-06-29T13:53:23+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/21</id><title>从最小二乘法到梯度下降法（二）</title><updated>2023-07-11T15:42:12.867588+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/22" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="动态规划"/><category term="算法"/><published>2023-06-29T13:53:23+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/21</id><title>从最小二乘法到梯度下降法（二）</title><updated>2023-07-11T16:04:56.551174+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2017-07-28</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/21" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="优化"/><category term="深度学习"/><published>2023-06-29T05:16:25+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/20</id><title>从最小二乘法到梯度下降法（一）</title><updated>2023-07-11T15:42:13.006455+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/21" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="优化"/><category term="深度学习"/><published>2023-06-29T05:16:25+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/20</id><title>从最小二乘法到梯度下降法（一）</title><updated>2023-07-11T16:04:56.670294+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2017-07-24</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/20" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="优化"/><category term="深度学习"/><published>2023-06-29T01:49:43+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/19</id><title>记一次异常数据过滤算法的优化</title><updated>2023-07-11T15:42:13.145013+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/20" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="优化"/><category term="深度学习"/><published>2023-06-29T01:49:43+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/19</id><title>记一次异常数据过滤算法的优化</title><updated>2023-07-11T16:04:56.812011+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2017-07-13</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/19" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="算法"/><category term="优化"/><published>2023-06-29T01:48:25+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/18</id><title>布隆过滤器</title><updated>2023-07-11T15:42:13.282340+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/19" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="算法"/><category term="优化"/><published>2023-06-29T01:48:25+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/18</id><title>布隆过滤器</title><updated>2023-07-11T16:04:56.989728+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2017-07-09</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/18" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="算法"/><category term="哈希"/><published>2023-06-28T15:06:02+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/17</id><title>Python 库推荐</title><updated>2023-07-11T15:42:13.417845+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/18" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="算法"/><category term="哈希"/><published>2023-06-28T15:06:02+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/17</id><title>Python 库推荐</title><updated>2023-07-11T16:04:57.130819+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2017-07-02</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/17" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="Python"/><category term="库"/><published>2023-06-28T15:05:03+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/16</id><title>IO 复用</title><updated>2023-07-11T15:42:13.538675+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/17" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="Python"/><category term="库"/><published>2023-06-28T15:05:03+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/16</id><title>IO 复用</title><updated>2023-07-11T16:04:57.341109+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2017-07-01</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/16" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="IO"/><category term="异步"/><published>2023-06-28T14:52:23+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/15</id><title>目标遐想</title><updated>2023-07-11T15:42:13.671441+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/16" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="IO"/><category term="异步"/><published>2023-06-28T14:52:23+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/15</id><title>目标遐想</title><updated>2023-07-11T16:04:57.475463+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2017-05-14</p>
 </blockquote>
 <p>一直认为自己是一个目标明确的人，但有时候还是会对目标有些疑惑。我想，不如在这里记录下自己的思考，让头脑不再模糊。</p>
@@ -66,10 +66,10 @@
 <p>如果不考虑责任，或许会更加幸福。但是，这样的幸福，会变成“不能承受的生命之轻”。不考虑责任，只求自由和幸福，显得自私。</p>
 <p>适逢海军成立70周年，祝人民海军生日快乐！</p>
 <p>2019.04.23 南京</p>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/15" rel="alternate"/><category term="2017"/><category term="目标"/><published>2023-06-28T14:11:48+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/14</id><title>Paxos 算法学习笔记</title><updated>2023-07-11T15:42:13.828924+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/15" rel="alternate"/><category term="2017"/><category term="目标"/><published>2023-06-28T14:11:48+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/14</id><title>Paxos 算法学习笔记</title><updated>2023-07-11T16:04:57.616559+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2017-04-30</p>
 </blockquote>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/14" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="算法"/><category term="Paxos"/><category term="分布式"/><published>2023-06-28T14:03:53+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/13</id><title>动态规划（一）——背包问题</title><updated>2023-07-11T15:42:13.959936+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/14" rel="alternate"/><category term="WIP"/><category term="2017"/><category term="算法"/><category term="Paxos"/><category term="分布式"/><published>2023-06-28T14:03:53+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/13</id><title>动态规划（一）——背包问题</title><updated>2023-07-11T16:04:57.767684+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2017-04-23</p>
 </blockquote>
 <h1>简介</h1>
@@ -137,7 +137,7 @@ public static int knapsackProblemNonRecursive(int[] volumes, int[] values, int n
 <ol>
 <li><a href="https://hawstein.com/2013/03/01/dp-knapsack/">动态规划之背包问题（一）</a></li>
 </ol>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/13" rel="alternate"/><category term="2017"/><category term="动态规划"/><category term="算法"/><published>2023-06-28T13:55:46+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/12</id><title>区块链的共识问题</title><updated>2023-07-11T15:42:14.093672+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/13" rel="alternate"/><category term="2017"/><category term="动态规划"/><category term="算法"/><published>2023-06-28T13:55:46+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/12</id><title>区块链的共识问题</title><updated>2023-07-11T16:04:57.911491+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>迁移自老博客，发表时间：2017-04-18</p>
 </blockquote>
 <h1>拜占庭将军问题</h1>
@@ -163,14 +163,14 @@ public static int knapsackProblemNonRecursive(int[] volumes, int[] values, int n
 <li><a href="https://zhuanlan.zhihu.com/p/20522513?utm_id=0">区块链与银行家</a></li>
 <li><a href="https://zhuanlan.zhihu.com/p/20925427?utm_id=0">区块链的共识机制</a></li>
 </ol>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/12" rel="alternate"/><category term="2017"/><category term="区块链"/><category term="共识"/><published>2023-06-27T14:51:10+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/11</id><title>我的日常 TODO 记录</title><updated>2023-07-11T15:42:14.250124+00:00</updated><content type="html"><![CDATA[<p>之前一直用微信给自己发消息作为 TODO，做完就删掉。但觉得把做完的事情也记录下来，或许会更有成就感。</p>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/12" rel="alternate"/><category term="2017"/><category term="区块链"/><category term="共识"/><published>2023-06-27T14:51:10+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/11</id><title>我的日常 TODO 记录</title><updated>2023-07-11T16:04:58.366721+00:00</updated><content type="html"><![CDATA[<p>之前一直用微信给自己发消息作为 TODO，做完就删掉。但觉得把做完的事情也记录下来，或许会更有成就感。</p>
 <p>后面就用这个 Issue 记录我的日常 TODO。</p>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/11" rel="alternate"/><category term="2023"/><category term="TODO"/><category term="记录"/><published>2023-06-26T15:05:15+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/10</id><title>为什么要写博客</title><updated>2023-07-11T15:42:14.396352+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/11" rel="alternate"/><category term="2023"/><category term="TODO"/><category term="记录"/><published>2023-06-26T15:05:15+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/10</id><title>为什么要写博客</title><updated>2023-07-11T16:04:58.541005+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>搬运自老博客，发表时间：2017-04-14</p>
 </blockquote>
 <p>曾经认为，写博客的都是大神，都好有奉献精神，愿意把自己的东西分享给大家。那时候，我忙于在知识的海洋中遨游，汲取营养，没有时间去写博客（说得像真的一样_(:3」∠)_）。但渐渐发现，我的学习模式有些问题。大多数时候，我只是急功近利地解决问题，解决完问题，就把问题放到一边，以后再遇到，仍然需要重复劳动。有些时候，会一时兴起学些感兴趣的东西，为了方便以后复习，我开始记笔记，这算是一个很大的进步了。然而，光是这样记笔记，我发现水平并没有很大的提升，或者说，我并没有深入问题的本质，在许多地方理解不够。这个时候，我似乎找到了写博客的理由。</p>
 <p>整理自己的知识与思路，用自己的语言表述出来，用输出倒逼输入。我想，这就是我写博客的理由。当然，如果能与大家一起交流，深入探讨，那就更是一大幸事了。</p>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/10" rel="alternate"/><category term="2017"/><published>2023-06-26T14:25:51+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/9</id><title>《微习惯》读书笔记</title><updated>2023-07-11T15:42:14.540735+00:00</updated><content type="html"><![CDATA[<h1>养成习惯的两种策略</h1>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/10" rel="alternate"/><category term="2017"/><published>2023-06-26T14:25:51+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/9</id><title>《微习惯》读书笔记</title><updated>2023-07-11T16:04:58.674397+00:00</updated><content type="html"><![CDATA[<h1>养成习惯的两种策略</h1>
 <h2>动力策略</h2>
 <p>主要是不断给自己打鸡血。</p>
 <h3>问题</h3>
@@ -219,7 +219,7 @@ public static int knapsackProblemNonRecursive(int[] volumes, int[] values, int n
 <li><input disabled="" type="checkbox"> 输入：每天看 5 分钟分享</li>
 <li><input disabled="" type="checkbox"> 输出：每天在地铁上写 10 个字的博客</li>
 </ul>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/9" rel="alternate"/><category term="2023"/><category term="TODO"/><category term="读书笔记"/><category term="习惯"/><published>2023-06-26T09:11:49+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/8</id><title>《哲学家们都干了些什么？》读书笔记</title><updated>2023-07-11T15:42:14.690843+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/9" rel="alternate"/><category term="2023"/><category term="TODO"/><category term="读书笔记"/><category term="习惯"/><published>2023-06-26T09:11:49+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/8</id><title>《哲学家们都干了些什么？》读书笔记</title><updated>2023-07-11T16:04:58.826528+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>最初发在豆瓣上，搬运过来。发表时间：2022-12-21</p>
 </blockquote>
 <p>笛卡尔认为只有我存在是确定的，其他都值得怀疑。</p>
@@ -246,26 +246,26 @@ public static int knapsackProblemNonRecursive(int[] volumes, int[] values, int n
 <p>人生意义没有固定答案，也因为没有固定答案，世界才更美好。思考人生意义最有效的办法，就是逼迫自己直面死亡。为什么活着，为什么不立刻自杀？</p>
 </li>
 </ol>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/8" rel="alternate"/><category term="哲学"/><category term="2022"/><category term="读书笔记"/><published>2023-06-26T01:46:23+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/7</id><title>“人生意义”观点收集</title><updated>2023-07-11T15:42:14.834611+00:00</updated><content type="html"><![CDATA[<p>从很早就开始思考人生意义，到目前为止得出的结论基本是：人生无意义。但无意义≠不值得过，个人可以选择合适的意义并活下去。
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/8" rel="alternate"/><category term="哲学"/><category term="2022"/><category term="读书笔记"/><published>2023-06-26T01:46:23+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/7</id><title>“人生意义”观点收集</title><updated>2023-07-11T16:04:58.992321+00:00</updated><content type="html"><![CDATA[<p>从很早就开始思考人生意义，到目前为止得出的结论基本是：人生无意义。但无意义≠不值得过，个人可以选择合适的意义并活下去。
 于是开个 Issue 记录下各种人生意义的观点，也算阶段性总结。</p>
 <p>PS：这个 Issue 的 WIP 标签估计是去不掉的...</p>
 <p>李银河的观点，对美的享用</p>
 <p>弗洛伊德</p>
 <p>阿德勒</p>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/7" rel="alternate"/><category term="WIP"/><category term="2023"/><category term="人生意义"/><published>2023-06-25T16:39:40+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/6</id><title>博客折腾记录</title><updated>2023-07-11T15:42:14.960567+00:00</updated><content type="html"><![CDATA[<h1>目标</h1>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/7" rel="alternate"/><category term="WIP"/><category term="2023"/><category term="人生意义"/><published>2023-06-25T16:39:40+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/6</id><title>博客折腾记录</title><updated>2023-07-11T16:04:59.116569+00:00</updated><content type="html"><![CDATA[<h1>目标</h1>
 <p>梳理下自己记录博客的历程，明确记录的长期目标与工具。</p>
 <h1>印象笔记</h1>
 <h1>OneNote</h1>
 <h1>博客</h1>
 <h1>语雀</h1>
 <h1>flomo + 博客</h1>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/6" rel="alternate"/><category term="WIP"/><category term="2023"/><category term="总结"/><published>2023-06-25T15:16:59+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/5</id><title>记录我的冥想</title><updated>2023-07-11T15:42:15.100225+00:00</updated><content type="html"><![CDATA[<h1>目标</h1>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/6" rel="alternate"/><category term="WIP"/><category term="2023"/><category term="总结"/><published>2023-06-25T15:16:59+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/5</id><title>记录我的冥想</title><updated>2023-07-11T16:04:59.260198+00:00</updated><content type="html"><![CDATA[<h1>目标</h1>
 <p>自动记录冥想，开始时间、结束时间、此刻的想法，看见自己的成长。</p>
 <h1>任务</h1>
 <ul>
 <li><input disabled="" type="checkbox"> 完成一个自动记录冥想时间、冥想想法的工具🛠️</li>
 </ul>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/5" rel="alternate"/><category term="WIP"/><category term="2023"/><category term="冥想"/><category term="TODO"/><published>2023-06-25T15:14:13+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/4</id><title>权限模型介绍</title><updated>2023-07-11T15:42:15.265593+00:00</updated><content type="html"><![CDATA[<h1>背景</h1>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/5" rel="alternate"/><category term="WIP"/><category term="2023"/><category term="冥想"/><category term="TODO"/><published>2023-06-25T15:14:13+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/4</id><title>权限模型介绍</title><updated>2023-07-11T16:04:59.408567+00:00</updated><content type="html"><![CDATA[<h1>背景</h1>
 <h1>目标</h1>
 <h1>权限模型</h1>
 <h2>ACL</h2>
@@ -274,7 +274,7 @@ public static int knapsackProblemNonRecursive(int[] volumes, int[] values, int n
 <h2>RBAC</h2>
 <h2>ABAC</h2>
 <h2>NGAC</h2>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/4" rel="alternate"/><category term="技术"/><category term="WIP"/><category term="2023"/><category term="权限"/><published>2023-06-25T14:18:54+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/3</id><title>利用 Github Issues 写博客</title><updated>2023-07-11T15:42:15.414404+00:00</updated><content type="html"><![CDATA[<h1>1 背景</h1>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/4" rel="alternate"/><category term="技术"/><category term="WIP"/><category term="2023"/><category term="权限"/><published>2023-06-25T14:18:54+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/3</id><title>利用 Github Issues 写博客</title><updated>2023-07-11T16:04:59.544140+00:00</updated><content type="html"><![CDATA[<h1>1 背景</h1>
 <p>之前使用 Hexo 搭建过自己的博客 <a href="https://zzy131250.github.io">zzy131250</a>，用的是 Github Pages，主要目标是通过写作积累输出。
 在工作后，写作比较少，加之更换电脑，原来本地的博客源码都没了。最近心血来潮，打算重新开始写作，但又懒得再去折腾 Hexo 博客，所以尝试使用 Github Issues 来写博客。
 Github Issues 写博客配置简单，非常友好，这里记录下配置过程。</p>
@@ -312,7 +312,7 @@ Github Issues 写博客配置简单，非常友好，这里记录下配置过程
 <li><a href="https://github.com/yihong0618/gitblog">gitblog</a></li>
 <li><a href="https://baijiahao.baidu.com/s?id=1708679340950201611&amp;wfr=spider&amp;for=pc">使用 GitHub Issues 来写博客，真香</a></li>
 </ol>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/3" rel="alternate"/><category term="技术"/><category term="WIP"/><category term="2023"/><published>2023-06-25T08:51:45+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/2</id><title>谈谈蓝牙4.0（BLE）模块与安卓的数据交互</title><updated>2023-07-11T15:42:15.566826+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/3" rel="alternate"/><category term="技术"/><category term="WIP"/><category term="2023"/><published>2023-06-25T08:51:45+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/2</id><title>谈谈蓝牙4.0（BLE）模块与安卓的数据交互</title><updated>2023-07-11T16:04:59.683543+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>迁移自老博客，发表时间：2017-04-17</p>
 </blockquote>
 <p>开发蓝牙4.0也快两个月了，给我的感受还是颇多的。</p>
@@ -423,5 +423,5 @@ private void broadcastUpdate(final String action, final BluetoothGattCharacteris
 }
 </code></pre>
 <p>DeviceControlActivity再通过这里接收广播并取出数据，完成数据接收。</p>
-]]></content><link href="https://github.com/zzy131250/gitblog/issues/2" rel="alternate"/><category term="技术"/><category term="Android"/><category term="BLE"/><category term="2017"/><published>2023-06-25T08:30:50+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/1</id><title>Github Issues 第一篇博客</title><updated>2023-07-11T15:42:15.701640+00:00</updated><content type="html"><![CDATA[<p>准备开始尝试使用 Github Issue 写博客，会慢慢把 ziazhou.com 上的博客迁移过来。</p>
+]]></content><link href="https://github.com/zzy131250/gitblog/issues/2" rel="alternate"/><category term="技术"/><category term="Android"/><category term="BLE"/><category term="2017"/><published>2023-06-25T08:30:50+00:00</published></entry><entry><id>https://github.com/zzy131250/gitblog/issues/1</id><title>Github Issues 第一篇博客</title><updated>2023-07-11T16:04:59.825282+00:00</updated><content type="html"><![CDATA[<p>准备开始尝试使用 Github Issue 写博客，会慢慢把 ziazhou.com 上的博客迁移过来。</p>
 ]]></content><link href="https://github.com/zzy131250/gitblog/issues/1" rel="alternate"/><category term="2023"/><published>2023-06-25T03:52:09+00:00</published></entry></feed>
