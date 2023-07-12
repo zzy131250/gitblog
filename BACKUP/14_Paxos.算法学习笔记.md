@@ -21,3 +21,18 @@ Paxos算法由Lamport于1990年提出，它是一种基于消息传递且具有�
 方案一先从简单的情况着手，我们先考虑系统由单个acceptor组成。这种情况下，可以通过类似互斥锁的机制来**管理proposer的并发执行**。proposer须先申请到acceptor的互斥访问权，然后再请求acceptor接受自己的值。acceptor负责发放互斥访问权，并接受得到互斥访问权的proposer发出的值。一旦acceptor接受了某个proposer的取值，就认为var值被确定，其他proposer**不再更改var值**。
 
 ## 具体实现
+Acceptor：
+1. 保存一个变量var和一个互斥锁lock
+2. prepare()方法加锁，并返回当前var值
+3. release()方法解锁，回收互斥访问权
+4. accept(var, V)，如果已经加锁，且var值为空，则设置var为V并释放锁
+
+Proposer（两阶段）：
+- 第一阶段：通过Acceptor::prepare()尝试获取互斥访问权和var值，如果无法获取，则结束
+- 第二阶段：根据var值选择执行方案。如果var值为空，则通过Acceptor::accept(var, V)提交V值；如果var值不为空，则释放锁，获得var值
+
+## 问题
+如果proposer在获得锁之后，释放锁之前发生故障，则系统将进入死锁。该方案不能容忍proposer机器故障。
+
+# 方案二
+
