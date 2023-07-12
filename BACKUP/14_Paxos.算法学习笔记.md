@@ -35,4 +35,7 @@ Proposer（两阶段）：
 如果proposer在获得锁之后，释放锁之前发生故障，则系统将进入死锁。该方案不能容忍proposer机器故障。
 
 # 方案二
+为了解决方案一中的死锁问题，容忍proposer机器故障，我们引入抢占式访问权。acceptor可以让某个proposer的访问权失效，不再允许其访问，并将访问权重新发放给其他proposer。
+为了实现这个目标，我们要求proposer在申请访问权的时候指定编号epoch，越大的epoch越新。acceptor采用“喜新厌旧”的原则，一旦收到更大的epoch，则令旧的访问权失效，然后给最新的epoch发放访问权，并只接受它提交的值。这样会导致拥有旧epoch的proposer无法运行，拥有新epoch的proposer将开始运行。为了保持一致性，不同epoch的proposer之间采用“后者认同前者”的原则，即如果acceptor上已设置了var值，则新的proposer不再更改，并且认同这个取值；如果acceptor上var值为空，proposer才提交自己的值。
 
+## 具体实现
