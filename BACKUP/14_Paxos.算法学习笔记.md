@@ -52,5 +52,15 @@ Proposer（两阶段）：
 由于系统仅有单个acceptor，如果acceptor发生故障，将导致整个系统无法运行。该方案不能容忍acceptor机器故障。
 
 #方案三——Paxos
-在前两种方案中，我们已经解决了部分问题，接下来，我们正式引入Paxos。Paxos在方案2的基础上，引入多个acceptor，并采用少数acceptor服从多数acceptor的思路，可以容忍半数以下acceptor机器故障。在Paxos中acceptor的实现与方案二一致，这里我们仅介绍proposer的实现。
+在前两种方案中，我们已经解决了部分问题，接下来，我们正式引入Paxos。Paxos在方案二的基础上，引入多个acceptor，并采用少数acceptor服从多数acceptor的思路，可以**容忍半数以下acceptor机器故障**。在Paxos中acceptor的实现与方案二一致，这里我们仅介绍proposer的实现。
 
+## 具体实现
+Proposer（两阶段）：
+- 第一阶段：申请epoch值和获取var值。由于有多个acceptor，所以规定必须获取半数以上acceptor的访问权，才能进入第二阶段。当然，由于会有抢占epoch的情况，所以可能会有两个proposer分别获取半数以上访问权。但是请注意，这时实际上还是只有一个majority，因为必定有acceptor同时接受了两者，但是该acceptor只记录较大的epoch，所以对于该acceptor来说，只有较大epoch的proposer的访问权有效，结果只有一个proposer提交的值可以在acceptor中形成majority，从而达成一致。（如果有偶数个acceptor，这里可能会产生两个proposer各占一半的情况，在这种情况下，两个proposer都不能进入第二阶段。）
+- 第二阶段：根据var值选择执行方案。如果var值都为空，则通过Acceptor::accept(var, epoch, V)提交V值，如果半数以上acceptor返回成功，则认为提交成功，否则返回错误；如果var值不都为空，则认同最大accepted_epoch对应的var值，并尝试向其他acceptor提交该var值
+
+## 如何维持一致
+这里我们假设，已经有一个epoch_1形成了一致的var值var_1，即已经有半数以上acceptor的var值确定为epoch_1对应的proposer提交的值var_1。那么，在epoch_1后一次的运行epoch_1+1轮次中，epoch_1+1对应的proposer需要获取半数以上acceptor访问权，所以它必定可以得到上一轮达成一致的var值var_1，并且var_1对应的epoch值epoch_1是已提交的epoch中最大的，那么，它就会认同var值，并继续传播var值，直到全部acceptor达成一致。
+
+## 活锁
+这里可能会出现一个活锁问题。我们知道，在proposer第一阶段获取半数以上acceptor访问权之后，可能会有新的proposer抢占它，导致原来的proposer无法继续运行。如果每次都有新的proposer抢占原来的proposer，那么将永远无法形成一致，这就是活锁。Lamport给出的解决方案是在proposer中选举一个leader，只允许leader提交取值，当leader故障时马上选举其他的leader。
