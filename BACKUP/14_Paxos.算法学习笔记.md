@@ -50,3 +50,7 @@ Proposer（两阶段）：
 
 ## 问题
 由于系统仅有单个acceptor，如果acceptor发生故障，将导致整个系统无法运行。该方案不能容忍acceptor机器故障。
+
+#方案三——Paxos
+在前两种方案中，我们已经解决了部分问题，接下来，我们正式引入Paxos。Paxos在方案2的基础上，引入多个acceptor，并采用少数acceptor服从多数acceptor的思路，可以容忍半数以下acceptor机器故障。在Paxos中acceptor的实现与方案二一致，这里我们仅介绍proposer的实现。
+
