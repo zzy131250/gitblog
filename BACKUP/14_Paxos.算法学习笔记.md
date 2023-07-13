@@ -39,3 +39,14 @@ Proposer（两阶段）：
 为了实现这个目标，我们要求proposer在申请访问权的时候指定编号epoch，越大的epoch越新。acceptor采用“喜新厌旧”的原则，一旦收到更大的epoch，则令旧的访问权失效，然后给最新的epoch发放访问权，并只接受它提交的值。这样会导致拥有旧epoch的proposer无法运行，拥有新epoch的proposer将开始运行。为了保持一致性，不同epoch的proposer之间采用“后者认同前者”的原则，即如果acceptor上已设置了var值，则新的proposer不再更改，并且认同这个取值；如果acceptor上var值为空，proposer才提交自己的值。
 
 ## 具体实现
+Acceptor：
+1. 保存var的取值与var对应的accepted_epoch值，并保存最新发放访问权的lastest_epoch值
+2. prepare(epoch)方法先判断参数epoch是否大于自己保存的lastest_epoch，如果大于则更新lastest_epoch为参数epoch值，并返回var的取值；否则返回错误
+3. accept(var, epoch, V)方法先判断参数epoch是否为记录的lastest_epoch值，若相等则更新acceptor的var值与accepted_epoch值；否则返回错误
+
+Proposer（两阶段）：
+- 第一阶段：申请epoch值和获取var值。可选取当前时间戳作为epoch，调用Acceptor::prepare(epoch)尝试获取epoch轮次的访问权和var的取值，如果不能获取，则结束
+- 第二阶段：根据var值选择执行方案。如果var值为空，则通过Acceptor::accept(var, epoch, V)提交V值，这里提交var值不一定成功，因为有可能在提交时其他proposer已经提交了更大的epoch值，导致当前proposer的访问权失效，此时会返回错误；如果var值不为空，获得并认同var值，不再更改
+
+## 问题
+由于系统仅有单个acceptor，如果acceptor发生故障，将导致整个系统无法运行。该方案不能容忍acceptor机器故障。
