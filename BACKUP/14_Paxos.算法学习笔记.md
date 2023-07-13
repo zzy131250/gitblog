@@ -64,3 +64,7 @@ Proposer（两阶段）：
 
 ## 活锁
 这里可能会出现一个活锁问题。我们知道，在proposer第一阶段获取半数以上acceptor访问权之后，可能会有新的proposer抢占它，导致原来的proposer无法继续运行。如果每次都有新的proposer抢占原来的proposer，那么将永远无法形成一致，这就是活锁。Lamport给出的解决方案是在proposer中选举一个leader，只允许leader提交取值，当leader故障时马上选举其他的leader。
+
+## 参考资料
+1. [paxos和分布式系统](https://m.bilibili.com/video/av36134550)
+2. [云计算（第三版）](https://m.douban.com/book/subject/26598073/)
