@@ -40,7 +40,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 ## 2022 共 1 篇
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
-## 2023 共 9 篇
+## 2023 共 10 篇
+- [友情链接](https://github.com/zzy131250/gitblog/issues/36)--2023-07-14
 - [微习惯打卡](https://github.com/zzy131250/gitblog/issues/32)--2023-07-05
 - [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--2023-06-26
 - [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2023-06-26
@@ -51,7 +52,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [利用 Github Issues 写博客](https://github.com/zzy131250/gitblog/issues/3)--2023-06-25
 - [Github Issues 第一篇博客](https://github.com/zzy131250/gitblog/issues/1)--2023-06-25
 ## TODO
-TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--19 jobs to do
+TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--21 jobs to do
 - [ ] 计划国庆旅行--2023-06-26
 - [ ] 问一下外企、银行的同学，工作体验怎么样--2023-06-26
 - [ ] 计算基金相对涨跌幅，基金何时割肉--2023-06-26
@@ -71,6 +72,8 @@ TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/i
 - [ ] 行业报告--2023-07-09
 - [ ] 明朝那些事儿--2023-07-09
 - [ ] rust能否将函数内定义的变量作为函数返回值--2023-07-13
+- [ ] 买牙膏--2023-07-14
+- [ ] 理发--2023-07-14
 
 TODO list from [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--4 jobs to do
 - [ ] 每天早上冥想 1 分钟--2023-06-26
