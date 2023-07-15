@@ -7,11 +7,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | 年轮说 | http://www.cielni.com/ | 很高兴认识你 |
 | 笑话人生 | https://www.cylong.com/ | 年华易逝 懂得珍惜 |
 ## 最近更新
+- [《八次危机》读书笔记](https://github.com/zzy131250/gitblog/issues/37)--2023-07-15
 - [友情链接](https://github.com/zzy131250/gitblog/issues/36)--2023-07-14
 - [微习惯打卡](https://github.com/zzy131250/gitblog/issues/32)--2023-07-05
 - [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 - [IPTables 学习实践](https://github.com/zzy131250/gitblog/issues/28)--2023-06-30
-- [做一只爬虫需要考虑的](https://github.com/zzy131250/gitblog/issues/27)--2023-06-29
 ## 2017 共 15 篇
 - [马尔科夫模型](https://github.com/zzy131250/gitblog/issues/24)--2023-06-29
 - [反向传播](https://github.com/zzy131250/gitblog/issues/23)--2023-06-29
@@ -42,7 +42,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 ## 2022 共 1 篇
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
-## 2023 共 10 篇
+## 2023 共 11 篇
+- [《八次危机》读书笔记](https://github.com/zzy131250/gitblog/issues/37)--2023-07-15
 - [友情链接](https://github.com/zzy131250/gitblog/issues/36)--2023-07-14
 - [微习惯打卡](https://github.com/zzy131250/gitblog/issues/32)--2023-07-05
 - [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--2023-06-26
@@ -52,7 +53,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [记录我的冥想](https://github.com/zzy131250/gitblog/issues/5)--2023-06-25
 - [权限模型介绍](https://github.com/zzy131250/gitblog/issues/4)--2023-06-25
 - [利用 Github Issues 写博客](https://github.com/zzy131250/gitblog/issues/3)--2023-06-25
+<details><summary>显示更多</summary>
+
 - [Github Issues 第一篇博客](https://github.com/zzy131250/gitblog/issues/1)--2023-06-25
+</details>
+
 ## TODO
 TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--21 jobs to do
 - [ ] 计划国庆旅行--2023-06-26
