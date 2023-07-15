@@ -4,7 +4,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 友情链接
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
-| 年轮说 | Ciel Ni | http://www.cielni.com/ | 很高兴认识你 |
+| 年轮说 | http://www.cielni.com/ | 很高兴认识你 |
 | 笑话人生 | https://www.cylong.com/ | 年华易逝 懂得珍惜 |
 ## 最近更新
 - [友情链接](https://github.com/zzy131250/gitblog/issues/36)--2023-07-14
