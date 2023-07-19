@@ -4,7 +4,7 @@
 
 # 概述
 Iptables是一个配置Linux内核防火墙的命令行工具，是Netfilter项目的一部分。Iptables通过封包过滤的方式检测、修改、转发或丢弃IPv4数据包，过滤的方式则采用一系列默认和用户定义的规则。如果匹配到规则，则执行该规则的动作。注意，Iptables的规则是有顺序的，只会执行第一个匹配规则的动作。
-![正在上传 8cbddf6ff58c4308.png…]()
+![8cbddf6ff58c4308.png](https://github.com/zzy131250/gitblog/assets/7437470/38e96b68-d0df-4596-aba3-186f7ce671dc)
 
 # 概念介绍
 ## 表（Table）
