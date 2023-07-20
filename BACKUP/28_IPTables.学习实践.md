@@ -15,3 +15,24 @@ Iptables主要包含的表：
 - filter表：存放所有与防火墙相关操作的默认表
 - nat表：用于网络地址转换（来源、目的IP、port的转换）
 - mangle表：用于对特殊封包的修改
+![c017ffe532d4ad71.png](https://github.com/zzy131250/gitblog/assets/7437470/0a45ef67-4dde-40d1-a309-77ad79e59492)
+
+## 链（Chain）
+Iptables主要包含的链：
+
+- INPUT链：作用于想要进入本机的封包
+- OUTPUT链：作用于本机要发送的封包
+- FORWARD链：作用于要转发的封包
+- PREROUTING链：作用于路由判断之前
+- POSTROUTING链：作用于路由判断之后
+
+Iptables封包过滤过程（表与链的生效时机）如下图：
+![f0c53008b78b4655.jpg](https://github.com/zzy131250/gitblog/assets/7437470/c48f2337-6f74-4eb9-96dc-05eb07645530)
+
+## 规则（Rule）
+位于Iptables上的一系列匹配规则，这些规则包括匹配条件与执行目标（跳转到链、内置目标ACCEPT，DROP，QUEUE和RETURN、扩展目标REJECT和LOG）。
+在执行目标为跳转到链时，如果目标链的规则不能提供完全匹配，则会返回到调用链继续寻找匹配规则。
+![38268c476c086c06.jpg](https://github.com/zzy131250/gitblog/assets/7437470/74a0b7c7-b15a-4bcf-b271-1c1f095ee387)
+
+## 模块（Module）
+模块可以用来扩展Iptables，如conntrack链接跟踪等。
