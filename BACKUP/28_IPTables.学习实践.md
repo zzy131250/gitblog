@@ -36,3 +36,39 @@ Iptables封包过滤过程（表与链的生效时机）如下图：
 
 ## 模块（Module）
 模块可以用来扩展Iptables，如conntrack链接跟踪等。
+
+# 实践
+本实践通过配置Iptables规则达到Docker端口映射的目的。实践的机器为CentOS 7.6虚拟机，预先安装了Iptables（v1.4.21）和Docker（v18.09.6）。
+Iptables规则可通过iptables -S -t [table]命令查看，最初的Iptables规则列表如下：
+
+```
+*nat
+-P PREROUTING ACCEPT # PREROUTING链的默认规则为ACCEPT
+-P INPUT ACCEPT
+-P OUTPUT ACCEPT
+-P POSTROUTING ACCEPT
+-N DOCKER # 用户自定义的链
+-A PREROUTING -m addrtype --dst-type LOCAL -j DOCKER
+-A OUTPUT ! -d 127.0.0.0/8 -m addrtype --dst-type LOCAL -j DOCKER
+-A POSTROUTING -s 172.17.0.0/16 ! -o docker0 -j MASQUERADE # 对源地址为172.17.0.0/16网段，出口网桥不是docker0的数据包做动态IP的SNAT
+-A DOCKER -i docker0 -j RETURN
+*filter
+-P INPUT ACCEPT
+-P FORWARD DROP
+-P OUTPUT ACCEPT
+-N DOCKER
+-N DOCKER-ISOLATION-STAGE-1
+-N DOCKER-ISOLATION-STAGE-2
+-N DOCKER-USER
+-A FORWARD -j DOCKER-USER
+-A FORWARD -j DOCKER-ISOLATION-STAGE-1
+-A FORWARD -o docker0 -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+-A FORWARD -o docker0 -j DOCKER
+-A FORWARD -i docker0 ! -o docker0 -j ACCEPT
+-A FORWARD -i docker0 -o docker0 -j ACCEPT
+-A DOCKER-ISOLATION-STAGE-1 -i docker0 ! -o docker0 -j DOCKER-ISOLATION-STAGE-2
+-A DOCKER-ISOLATION-STAGE-1 -j RETURN
+-A DOCKER-ISOLATION-STAGE-2 -o docker0 -j DROP
+-A DOCKER-ISOLATION-STAGE-2 -j RETURN
+-A DOCKER-USER -j RETURN
+```
