@@ -7,7 +7,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | 年轮说 | http://www.cielni.com/ | 很高兴认识你 |
 | 笑话人生 | https://www.cylong.com/ | 年华易逝 懂得珍惜 |
 ## 最近更新
-- [一些工作的感想](https://github.com/zzy131250/gitblog/issues/38)--2023-07-21
+- [一些工作中值得追求的品质](https://github.com/zzy131250/gitblog/issues/38)--2023-07-21
 - [《八次危机》读书笔记](https://github.com/zzy131250/gitblog/issues/37)--2023-07-15
 - [友情链接](https://github.com/zzy131250/gitblog/issues/36)--2023-07-14
 - [微习惯打卡](https://github.com/zzy131250/gitblog/issues/32)--2023-07-05
@@ -43,7 +43,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 2022 共 1 篇
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
 ## 2023 共 12 篇
-- [一些工作的感想](https://github.com/zzy131250/gitblog/issues/38)--2023-07-21
+- [一些工作中值得追求的品质](https://github.com/zzy131250/gitblog/issues/38)--2023-07-21
 - [《八次危机》读书笔记](https://github.com/zzy131250/gitblog/issues/37)--2023-07-15
 - [友情链接](https://github.com/zzy131250/gitblog/issues/36)--2023-07-14
 - [微习惯打卡](https://github.com/zzy131250/gitblog/issues/32)--2023-07-05
