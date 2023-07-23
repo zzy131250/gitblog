@@ -7,11 +7,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | 年轮说 | http://www.cielni.com/ | 很高兴认识你 |
 | 笑话人生 | https://www.cylong.com/ | 年华易逝 懂得珍惜 |
 ## 最近更新
+- [一些有用的心理学规律](https://github.com/zzy131250/gitblog/issues/42)--2023-07-23
 - [记录下我的爱好](https://github.com/zzy131250/gitblog/issues/41)--2023-07-23
 - [《分析模式》笔记](https://github.com/zzy131250/gitblog/issues/40)--2023-07-22
 - [一些工作中值得追求的品质](https://github.com/zzy131250/gitblog/issues/38)--2023-07-21
 - [《八次危机》读书笔记](https://github.com/zzy131250/gitblog/issues/37)--2023-07-15
-- [友情链接](https://github.com/zzy131250/gitblog/issues/36)--2023-07-14
 ## 2017 共 15 篇
 - [马尔科夫模型](https://github.com/zzy131250/gitblog/issues/24)--2023-06-29
 - [反向传播](https://github.com/zzy131250/gitblog/issues/23)--2023-06-29
@@ -42,7 +42,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 ## 2022 共 1 篇
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
-## 2023 共 14 篇
+## 2023 共 15 篇
+- [一些有用的心理学规律](https://github.com/zzy131250/gitblog/issues/42)--2023-07-23
 - [记录下我的爱好](https://github.com/zzy131250/gitblog/issues/41)--2023-07-23
 - [《分析模式》笔记](https://github.com/zzy131250/gitblog/issues/40)--2023-07-22
 - [一些工作中值得追求的品质](https://github.com/zzy131250/gitblog/issues/38)--2023-07-21
@@ -52,9 +53,9 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--2023-06-26
 - [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2023-06-26
 - [“人生意义”观点收集](https://github.com/zzy131250/gitblog/issues/7)--2023-06-25
-- [博客折腾记录](https://github.com/zzy131250/gitblog/issues/6)--2023-06-25
 <details><summary>显示更多</summary>
 
+- [博客折腾记录](https://github.com/zzy131250/gitblog/issues/6)--2023-06-25
 - [记录我的冥想](https://github.com/zzy131250/gitblog/issues/5)--2023-06-25
 - [权限模型介绍](https://github.com/zzy131250/gitblog/issues/4)--2023-06-25
 - [利用 Github Issues 写博客](https://github.com/zzy131250/gitblog/issues/3)--2023-06-25
