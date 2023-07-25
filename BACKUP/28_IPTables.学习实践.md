@@ -121,3 +121,9 @@ Iptables规则可通过iptables -S -t [table]命令查看，最初的Iptables规
 # 对目的地址为172.17.0.2/32，入口网桥不是docker0，出口网桥是docker0，目的端口是8080的TCP包做ACCEPT
 -A DOCKER -d 172.17.0.2/32 ! -i docker0 -o docker0 -p tcp -m tcp --dport 8080 -j ACCEPT
 ```
+下面我们依次手动添加Iptables规则，命令如下：
+```
+iptables -t nat -A POSTROUTING -s 172.17.0.2/32 -d 172.17.0.2/32 -p tcp -m tcp --dport 8080 -j MASQUERADE
+iptables -t nat -A DOCKER ! -i docker0 -p tcp -m tcp --dport 8080 -j DNAT --to-destination 172.17.0.2:8080
+iptables -t filter -A DOCKER -d 172.17.0.2/32 ! -i docker0 -o docker0 -p tcp -m tcp --dport 8080 -j ACCEPT
+```
