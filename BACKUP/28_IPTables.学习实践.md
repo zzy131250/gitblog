@@ -73,7 +73,7 @@ Iptables规则可通过iptables -S -t [table]命令查看，最初的Iptables规
 -A DOCKER-USER -j RETURN
 ```
 
-通过docker run -p 8080:8080命令，我们添加了端口映射。现在，我们可以直接通过curl http://10.0.2.15:8080命令访问容器中的服务。其中，10.0.2.15是CentOS宿主机的IP。再次查看Iptables，规则列表变为：
+通过 docker run -p 8080:8080 命令，我们添加了端口映射。现在，我们可以直接通过 curl http://10.0.2.15:8080 命令访问容器中的服务。其中，10.0.2.15是CentOS宿主机的IP。再次查看Iptables，规则列表变为：
 
 ```
 *nat
@@ -127,3 +127,9 @@ iptables -t nat -A POSTROUTING -s 172.17.0.2/32 -d 172.17.0.2/32 -p tcp -m tcp -
 iptables -t nat -A DOCKER ! -i docker0 -p tcp -m tcp --dport 8080 -j DNAT --to-destination 172.17.0.2:8080
 iptables -t filter -A DOCKER -d 172.17.0.2/32 ! -i docker0 -o docker0 -p tcp -m tcp --dport 8080 -j ACCEPT
 ```
+
+最后，通过curl http://10.0.2.15:8080 命令，我们成功访问到了容器中的服务，说明端口映射成功。
+
+# 参考资料
+1. [鸟哥的Linux私房菜](http://cn.linux.vbird.org/linux_server/0250simple_firewall.php)
+2. [Iptables](https://wiki.archlinux.org/title/Iptables)
