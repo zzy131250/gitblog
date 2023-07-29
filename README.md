@@ -63,7 +63,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## TODO
-TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--21 jobs to do
+TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--23 jobs to do
 - [ ] 计划国庆旅行--2023-06-26
 - [ ] 问一下外企、银行的同学，工作体验怎么样--2023-06-26
 - [ ] 计算基金相对涨跌幅，基金何时割肉--2023-06-26
@@ -85,6 +85,8 @@ TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/i
 - [ ] 买德训鞋--2023-07-22
 - [ ] 把地垫带回家--2023-07-23
 - [ ] 推荐下我觉得不错的书和影视--2023-07-27
+- [ ] 买零食--2023-07-29
+- [ ] 买口腔溃疡喷剂--2023-07-29
 
 TODO list from [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--3 jobs to do
 - [ ] 每天早上冥想 1 分钟--2023-06-26
