@@ -42,3 +42,49 @@ next数组的求解，我们可以利用动态规划的思想。我们知道，�
 2. 如果 b[k]!=b[i]，即 b[k−1] 的下一个字符不等于 b[i−1] 的下一个字符。则我们需要找到 b[0，k−1] 的最长前缀子串 b[0,l]，且该串最后一个字符的下一个字符为 b[i]，即 b[l+1]=b[i]。这个时候，我们可得到 next[i]=l+1。
 
 ## 问题解决
+我们先给出框架代码如下：
+```Java
+// a,b分别是主串和模式串；n,m分別是主串和模式串的长度
+public static int kmp(char[] a, int n, char[] b, int m) {
+	int[] next = getNexts(b, m);
+	// 模式串的索引位置
+	int j = 0;
+	// i是主串的索引位置
+	for (int i = 0; i < n; i++) {
+		// 找到坏字符，也就是a[i]和b[j]
+		while (j > 0 && a[i] != b[j]) {
+			// 找到最长可匹配前后缀子串长度k-1，并从k位开始继续匹配
+			j = next[j - 1] + 1;
+		}
+		// 主串与模式串匹配，模式串索引后移
+		if (a[i] == b[j]) ++j;
+		// 找到匹配的模式串了，返回主串中开始匹配的字符位置
+		if (j == m) return i - m + 1;
+	}
+	return -1;
+}
+```
+next数组的求解属于比较难理解的部分，代码如下：
+```Java
+// b表示模式串，m表示模式串的长度
+public static int[] getNexts(char[] b, int m) {
+	int[] next = new int[m];
+	next[0] = -1;
+	// 最长可匹配前后缀子串中，前缀子串的下标
+	int k = -1;
+	for (int i = 1; i < m; i++) {
+		// 情况2，b[k+1]!=b[i]，循环找b[0,k]的最长前缀子串，直到b[k+1]=b[i]或k=-1（不存在），next[i]=l+1
+		while (k != -1 && b[k + 1] != b[i]) {
+			// 每次都赋值为b[0,k]的最长前缀子串位置
+			k = next[k];
+		}
+		// 情况1，b[k+1]=b[i]，next[i]=k+1
+		if (b[k + 1] == b[i]) ++k;
+		next[i] = k;
+	}
+	return next;
+}
+```
+由上述代码可知，KMP算法的时间复杂度为 O(n+m)，即两个串都遍历一遍即可；空间复杂度为 O(m)，需要申请一个和模式串长度一样的数组。其中 n 为主串长度，m 为模式串长度。
+# 参考资料
+[字符串匹配1———单模式匹配（BF，RK，Sunday，BM，KMP）](https://blog.csdn.net/weixin_38073885/article/details/85345215)
