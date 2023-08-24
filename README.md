@@ -9,7 +9,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 最近更新
 - [我的标准](https://github.com/zzy131250/gitblog/issues/45)--2023-08-18
 - [冥想的作用](https://github.com/zzy131250/gitblog/issues/44)--2023-08-15
-- [谈谈“可落地”](https://github.com/zzy131250/gitblog/issues/43)--2023-08-15
+- [谈谈高标准与可落地](https://github.com/zzy131250/gitblog/issues/43)--2023-08-15
 - [一些有用的心理学规律](https://github.com/zzy131250/gitblog/issues/42)--2023-07-23
 - [记录下我的爱好](https://github.com/zzy131250/gitblog/issues/41)--2023-07-23
 ## 2017 共 15 篇
@@ -45,7 +45,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 2023 共 18 篇
 - [我的标准](https://github.com/zzy131250/gitblog/issues/45)--2023-08-18
 - [冥想的作用](https://github.com/zzy131250/gitblog/issues/44)--2023-08-15
-- [谈谈“可落地”](https://github.com/zzy131250/gitblog/issues/43)--2023-08-15
+- [谈谈高标准与可落地](https://github.com/zzy131250/gitblog/issues/43)--2023-08-15
 - [一些有用的心理学规律](https://github.com/zzy131250/gitblog/issues/42)--2023-07-23
 - [记录下我的爱好](https://github.com/zzy131250/gitblog/issues/41)--2023-07-23
 - [《分析模式》笔记](https://github.com/zzy131250/gitblog/issues/40)--2023-07-22
