@@ -7,11 +7,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | 年轮说 | http://www.cielni.com/ | 很高兴认识你 |
 | 笑话人生 | https://www.cylong.com/ | 年华易逝 懂得珍惜 |
 ## 最近更新
+- [问题复盘](https://github.com/zzy131250/gitblog/issues/47)--2023-08-29
 - [结硬寨，打呆仗](https://github.com/zzy131250/gitblog/issues/46)--2023-08-27
 - [我的标准](https://github.com/zzy131250/gitblog/issues/45)--2023-08-18
 - [冥想的作用](https://github.com/zzy131250/gitblog/issues/44)--2023-08-15
 - [谈谈高标准与可落地](https://github.com/zzy131250/gitblog/issues/43)--2023-08-15
-- [一些有用的心理学规律](https://github.com/zzy131250/gitblog/issues/42)--2023-07-23
 ## 2017 共 15 篇
 - [马尔科夫模型](https://github.com/zzy131250/gitblog/issues/24)--2023-06-29
 - [反向传播](https://github.com/zzy131250/gitblog/issues/23)--2023-06-29
@@ -42,7 +42,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 ## 2022 共 1 篇
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
-## 2023 共 19 篇
+## 2023 共 20 篇
+- [问题复盘](https://github.com/zzy131250/gitblog/issues/47)--2023-08-29
 - [结硬寨，打呆仗](https://github.com/zzy131250/gitblog/issues/46)--2023-08-27
 - [我的标准](https://github.com/zzy131250/gitblog/issues/45)--2023-08-18
 - [冥想的作用](https://github.com/zzy131250/gitblog/issues/44)--2023-08-15
@@ -52,9 +53,9 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [《分析模式》笔记](https://github.com/zzy131250/gitblog/issues/40)--2023-07-22
 - [一些工作中值得追求的品质](https://github.com/zzy131250/gitblog/issues/38)--2023-07-21
 - [《八次危机》读书笔记](https://github.com/zzy131250/gitblog/issues/37)--2023-07-15
-- [友情链接](https://github.com/zzy131250/gitblog/issues/36)--2023-07-14
 <details><summary>显示更多</summary>
 
+- [友情链接](https://github.com/zzy131250/gitblog/issues/36)--2023-07-14
 - [微习惯打卡](https://github.com/zzy131250/gitblog/issues/32)--2023-07-05
 - [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--2023-06-26
 - [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--2023-06-26
