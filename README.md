@@ -7,11 +7,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | 年轮说 | http://www.cielni.com/ | 很高兴认识你 |
 | 笑话人生 | https://www.cylong.com/ | 年华易逝 懂得珍惜 |
 ## 最近更新
-- [问题复盘](https://github.com/zzy131250/gitblog/issues/47)--2023-08-29
-- [结硬寨，打呆仗](https://github.com/zzy131250/gitblog/issues/46)--2023-08-27
-- [我的标准](https://github.com/zzy131250/gitblog/issues/45)--2023-08-18
-- [冥想的作用](https://github.com/zzy131250/gitblog/issues/44)--2023-08-15
-- [谈谈高标准与可落地](https://github.com/zzy131250/gitblog/issues/43)--2023-08-15
+- [[翻译]哈里·布朗的金融安全17条黄金法则](https://github.com/zzy131250/gitblog/issues/55)--2023-09-10
+- [关于幸福的观点收集](https://github.com/zzy131250/gitblog/issues/54)--2023-09-10
+- [TCP的拆包与粘包](https://github.com/zzy131250/gitblog/issues/53)--2023-09-10
+- [字节范摘录](https://github.com/zzy131250/gitblog/issues/52)--2023-09-10
+- [35岁之后的工作](https://github.com/zzy131250/gitblog/issues/51)--2023-09-03
 ## 2017 共 15 篇
 - [马尔科夫模型](https://github.com/zzy131250/gitblog/issues/24)--2023-06-29
 - [反向传播](https://github.com/zzy131250/gitblog/issues/23)--2023-06-29
@@ -42,10 +42,19 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 ## 2022 共 1 篇
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
-## 2023 共 20 篇
-- [问题复盘](https://github.com/zzy131250/gitblog/issues/47)--2023-08-29
+## 2023 共 27 篇
+- [[翻译]哈里·布朗的金融安全17条黄金法则](https://github.com/zzy131250/gitblog/issues/55)--2023-09-10
+- [关于幸福的观点收集](https://github.com/zzy131250/gitblog/issues/54)--2023-09-10
+- [TCP的拆包与粘包](https://github.com/zzy131250/gitblog/issues/53)--2023-09-10
+- [字节范摘录](https://github.com/zzy131250/gitblog/issues/52)--2023-09-10
+- [35岁之后的工作](https://github.com/zzy131250/gitblog/issues/51)--2023-09-03
+- [想不明白的时候，就去运动](https://github.com/zzy131250/gitblog/issues/50)--2023-09-03
+- [接受自己的平凡](https://github.com/zzy131250/gitblog/issues/49)--2023-09-03
+- [虚拟内存](https://github.com/zzy131250/gitblog/issues/48)--2023-08-31
 - [结硬寨，打呆仗](https://github.com/zzy131250/gitblog/issues/46)--2023-08-27
 - [我的标准](https://github.com/zzy131250/gitblog/issues/45)--2023-08-18
+<details><summary>显示更多</summary>
+
 - [冥想的作用](https://github.com/zzy131250/gitblog/issues/44)--2023-08-15
 - [谈谈高标准与可落地](https://github.com/zzy131250/gitblog/issues/43)--2023-08-15
 - [一些有用的心理学规律](https://github.com/zzy131250/gitblog/issues/42)--2023-07-23
@@ -53,8 +62,6 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [《分析模式》笔记](https://github.com/zzy131250/gitblog/issues/40)--2023-07-22
 - [一些工作中值得追求的品质](https://github.com/zzy131250/gitblog/issues/38)--2023-07-21
 - [《八次危机》读书笔记](https://github.com/zzy131250/gitblog/issues/37)--2023-07-15
-<details><summary>显示更多</summary>
-
 - [友情链接](https://github.com/zzy131250/gitblog/issues/36)--2023-07-14
 - [微习惯打卡](https://github.com/zzy131250/gitblog/issues/32)--2023-07-05
 - [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--2023-06-26
@@ -68,7 +75,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## TODO
-TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--25 jobs to do
+TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--26 jobs to do
 - [ ] 计划国庆旅行--2023-06-26
 - [ ] 问一下外企、银行的同学，工作体验怎么样--2023-06-26
 - [ ] 计算基金相对涨跌幅，基金何时割肉--2023-06-26
@@ -93,7 +100,8 @@ TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/i
 - [ ] 研究下淘宝中间商--2023-08-19
 - [ ] 登山鞋带回家🥾--2023-08-27
 - [ ] 调研外包生活--2023-08-27
-- [ ] 过一遍冥想课程xnian--2023-08-27
+- [ ] 手写一个rpc框架--2023-09-02
+- [ ] 4种投资，海外资产--2023-09-10
 
 TODO list from [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--3 jobs to do
 - [ ] 每天早上冥想 1 分钟--2023-06-26
