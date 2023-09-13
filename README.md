@@ -7,11 +7,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | 年轮说 | http://www.cielni.com/ | 很高兴认识你 |
 | 笑话人生 | https://www.cylong.com/ | 年华易逝 懂得珍惜 |
 ## 最近更新
+- [影响范围评估的重要性](https://github.com/zzy131250/gitblog/issues/56)--2023-09-13
 - [[翻译]哈里·布朗的金融安全17条黄金法则](https://github.com/zzy131250/gitblog/issues/55)--2023-09-10
 - [关于幸福的观点收集](https://github.com/zzy131250/gitblog/issues/54)--2023-09-10
 - [TCP的拆包与粘包](https://github.com/zzy131250/gitblog/issues/53)--2023-09-10
 - [字节范摘录](https://github.com/zzy131250/gitblog/issues/52)--2023-09-10
-- [35岁之后的工作](https://github.com/zzy131250/gitblog/issues/51)--2023-09-03
 ## 2017 共 15 篇
 - [马尔科夫模型](https://github.com/zzy131250/gitblog/issues/24)--2023-06-29
 - [反向传播](https://github.com/zzy131250/gitblog/issues/23)--2023-06-29
@@ -42,7 +42,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 ## 2022 共 1 篇
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
-## 2023 共 27 篇
+## 2023 共 28 篇
+- [影响范围评估的重要性](https://github.com/zzy131250/gitblog/issues/56)--2023-09-13
 - [[翻译]哈里·布朗的金融安全17条黄金法则](https://github.com/zzy131250/gitblog/issues/55)--2023-09-10
 - [关于幸福的观点收集](https://github.com/zzy131250/gitblog/issues/54)--2023-09-10
 - [TCP的拆包与粘包](https://github.com/zzy131250/gitblog/issues/53)--2023-09-10
@@ -52,9 +53,9 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [接受自己的平凡](https://github.com/zzy131250/gitblog/issues/49)--2023-09-03
 - [虚拟内存](https://github.com/zzy131250/gitblog/issues/48)--2023-08-31
 - [结硬寨，打呆仗](https://github.com/zzy131250/gitblog/issues/46)--2023-08-27
-- [我的标准](https://github.com/zzy131250/gitblog/issues/45)--2023-08-18
 <details><summary>显示更多</summary>
 
+- [我的标准](https://github.com/zzy131250/gitblog/issues/45)--2023-08-18
 - [冥想的作用](https://github.com/zzy131250/gitblog/issues/44)--2023-08-15
 - [谈谈高标准与可落地](https://github.com/zzy131250/gitblog/issues/43)--2023-08-15
 - [一些有用的心理学规律](https://github.com/zzy131250/gitblog/issues/42)--2023-07-23
