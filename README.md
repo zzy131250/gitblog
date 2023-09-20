@@ -79,8 +79,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## TODO
-TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--26 jobs to do
-- [ ] 计划国庆旅行--2023-06-26
+TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--25 jobs to do
 - [ ] 问一下外企、银行的同学，工作体验怎么样--2023-06-26
 - [ ] 计算基金相对涨跌幅，基金何时割肉--2023-06-26
 - [ ] 老博客内容搬运到博客--2023-06-28
