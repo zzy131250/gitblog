@@ -7,11 +7,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | 年轮说 | http://www.cielni.com/ | 很高兴认识你 |
 | 笑话人生 | https://www.cylong.com/ | 年华易逝 懂得珍惜 |
 ## 最近更新
+- [RPC 系列（一）——使用 Go rpc 库和 gob 实现最简版调用](https://github.com/zzy131250/gitblog/issues/60)--2023-09-24
 - [我的仪式](https://github.com/zzy131250/gitblog/issues/59)--2023-09-16
 - [软件行业适合什么样的雇佣方式？](https://github.com/zzy131250/gitblog/issues/58)--2023-09-15
 - [研发流程备忘](https://github.com/zzy131250/gitblog/issues/57)--2023-09-13
 - [影响范围评估的重要性](https://github.com/zzy131250/gitblog/issues/56)--2023-09-13
-- [[翻译]哈里·布朗的金融安全17条黄金法则](https://github.com/zzy131250/gitblog/issues/55)--2023-09-10
 ## 2017 共 15 篇
 - [马尔科夫模型](https://github.com/zzy131250/gitblog/issues/24)--2023-06-29
 - [反向传播](https://github.com/zzy131250/gitblog/issues/23)--2023-06-29
@@ -42,7 +42,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 ## 2022 共 1 篇
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
-## 2023 共 31 篇
+## 2023 共 32 篇
+- [RPC 系列（一）——使用 Go rpc 库和 gob 实现最简版调用](https://github.com/zzy131250/gitblog/issues/60)--2023-09-24
 - [我的仪式](https://github.com/zzy131250/gitblog/issues/59)--2023-09-16
 - [软件行业适合什么样的雇佣方式？](https://github.com/zzy131250/gitblog/issues/58)--2023-09-15
 - [研发流程备忘](https://github.com/zzy131250/gitblog/issues/57)--2023-09-13
@@ -52,9 +53,9 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [TCP的拆包与粘包](https://github.com/zzy131250/gitblog/issues/53)--2023-09-10
 - [字节范摘录](https://github.com/zzy131250/gitblog/issues/52)--2023-09-10
 - [35岁之后的工作](https://github.com/zzy131250/gitblog/issues/51)--2023-09-03
-- [想不明白的时候，就去运动](https://github.com/zzy131250/gitblog/issues/50)--2023-09-03
 <details><summary>显示更多</summary>
 
+- [想不明白的时候，就去运动](https://github.com/zzy131250/gitblog/issues/50)--2023-09-03
 - [接受自己的平凡](https://github.com/zzy131250/gitblog/issues/49)--2023-09-03
 - [虚拟内存](https://github.com/zzy131250/gitblog/issues/48)--2023-08-31
 - [结硬寨，打呆仗](https://github.com/zzy131250/gitblog/issues/46)--2023-08-27
@@ -79,7 +80,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 </details>
 
 ## TODO
-TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--28 jobs to do
+TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/issues/11)--32 jobs to do
 - [ ] 问一下外企、银行的同学，工作体验怎么样--2023-06-26
 - [ ] 计算基金相对涨跌幅，基金何时割肉--2023-06-26
 - [ ] 老博客内容搬运到博客--2023-06-28
@@ -103,10 +104,14 @@ TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/i
 - [ ] 研究下淘宝中间商--2023-08-19
 - [ ] 登山鞋带回家🥾--2023-08-27
 - [ ] 调研外包生活--2023-08-27
-- [ ] 使用net/rpc框架实现一个hello world--2023-09-02
 - [ ] 使用net/rpc+jsonrpc实现不同的编码--2023-09-02
 - [ ] 使用http协议实现rpc--2023-09-02
-- [ ] 手写一个rpc框架，并把每一步都记录下来--2023-09-02
+- [ ] 手写一个rpc框架，服务端与消息编解码--2023-09-02
+- [ ] 客户端--2023-09-02
+- [ ] 服务注册--2023-09-02
+- [ ] 负载均衡--2023-09-02
+- [ ] 服务发现、注册中心--2023-09-02
+- [ ] 自定义编码--2023-09-02
 - [ ] 4种投资，海外资产--2023-09-10
 
 TODO list from [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--3 jobs to do
