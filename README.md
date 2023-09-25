@@ -121,7 +121,7 @@ TODO list from [我的日常 TODO 记录](https://github.com/zzy131250/gitblog/i
 TODO list from [《微习惯》读书笔记](https://github.com/zzy131250/gitblog/issues/9)--3 jobs to do
 - [ ] 每天早上冥想 1 分钟--2023-06-26
 - [ ] 每天睡觉前做 1 个俯卧撑--2023-06-26
-- [ ] 输入：每天看 5 分钟分享 或者 输出：每天写 10 个字的博客--2023-06-26
+- [ ] 输入：每天看 5 分钟分享 或者 输出：每天写 10 个字的博客/闪念笔记--2023-06-26
 
 TODO list from [记录我的冥想](https://github.com/zzy131250/gitblog/issues/5)--1 jobs to do
 - [ ] 完成一个自动记录冥想时间、冥想想法的工具🛠️--2023-06-25
