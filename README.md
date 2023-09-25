@@ -7,11 +7,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | 年轮说 | http://www.cielni.com/ | 很高兴认识你 |
 | 笑话人生 | https://www.cylong.com/ | 年华易逝 懂得珍惜 |
 ## 最近更新
+- [资产与负债](https://github.com/zzy131250/gitblog/issues/62)--2023-09-25
 - [[摘录]可逆决定与不可逆决定](https://github.com/zzy131250/gitblog/issues/61)--2023-09-24
 - [RPC 系列（一）——使用 Go rpc 库和 gob 实现最简版调用](https://github.com/zzy131250/gitblog/issues/60)--2023-09-24
 - [我的仪式](https://github.com/zzy131250/gitblog/issues/59)--2023-09-16
 - [软件行业适合什么样的雇佣方式？](https://github.com/zzy131250/gitblog/issues/58)--2023-09-15
-- [研发流程备忘](https://github.com/zzy131250/gitblog/issues/57)--2023-09-13
 ## 2017 共 15 篇
 - [马尔科夫模型](https://github.com/zzy131250/gitblog/issues/24)--2023-06-29
 - [反向传播](https://github.com/zzy131250/gitblog/issues/23)--2023-06-29
@@ -42,7 +42,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [KMP 算法](https://github.com/zzy131250/gitblog/issues/29)--2023-06-30
 ## 2022 共 1 篇
 - [《哲学家们都干了些什么？》读书笔记](https://github.com/zzy131250/gitblog/issues/8)--2023-06-26
-## 2023 共 33 篇
+## 2023 共 34 篇
+- [资产与负债](https://github.com/zzy131250/gitblog/issues/62)--2023-09-25
 - [[摘录]可逆决定与不可逆决定](https://github.com/zzy131250/gitblog/issues/61)--2023-09-24
 - [RPC 系列（一）——使用 Go rpc 库和 gob 实现最简版调用](https://github.com/zzy131250/gitblog/issues/60)--2023-09-24
 - [我的仪式](https://github.com/zzy131250/gitblog/issues/59)--2023-09-16
@@ -52,9 +53,9 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [[翻译]哈里·布朗的金融安全17条黄金法则](https://github.com/zzy131250/gitblog/issues/55)--2023-09-10
 - [关于幸福的观点收集](https://github.com/zzy131250/gitblog/issues/54)--2023-09-10
 - [TCP的拆包与粘包](https://github.com/zzy131250/gitblog/issues/53)--2023-09-10
-- [字节范摘录](https://github.com/zzy131250/gitblog/issues/52)--2023-09-10
 <details><summary>显示更多</summary>
 
+- [字节范摘录](https://github.com/zzy131250/gitblog/issues/52)--2023-09-10
 - [35岁之后的工作](https://github.com/zzy131250/gitblog/issues/51)--2023-09-03
 - [想不明白的时候，就去运动](https://github.com/zzy131250/gitblog/issues/50)--2023-09-03
 - [接受自己的平凡](https://github.com/zzy131250/gitblog/issues/49)--2023-09-03
