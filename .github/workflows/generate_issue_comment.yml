@@ -1,9 +1,9 @@
 name: Generate Issue Comment
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: '59 23 * * *'
+  #workflow_dispatch:
+  #schedule:
+    #- cron: '59 23 * * *'
 
 env:
   ISSUE_NUMBER: 32
